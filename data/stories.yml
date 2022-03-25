@@ -1,0 +1,166 @@
+version: "2.0"
+
+stories:
+- story: Tuition Fees
+  steps:
+  - intent: greet
+  - action: utter_welcome_durham_college
+  - action: utter_main_menu  
+  - checkpoint: asked_main_menu
+
+
+### main menu checkpoint
+- story: Tuition Fees
+  steps:
+  - checkpoint: asked_main_menu
+  - intent: tuition_and_fees
+  - action: utter_tuition_and_fees
+  - action: utter_submenu_tution_fee
+  
+## main menu with intents
+- story: Tuition Fees
+  steps:
+  - intent: tuition_and_fees
+  - action: utter_tuition_and_fees
+  - action: utter_submenu_tution_fee
+  - checkpoint: asked_submenu
+ 
+- story: Tuition Fees with sub menu program fee calculator
+  steps:
+  - checkpoint: asked_submenu
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: program_fee_calculator
+  - action: utter_submenu_program_fee_calculator
+
+- story: Tuition Fees with sub menu withdrawals_and_refunds
+  steps:
+  - checkpoint: asked_submenu
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: withdrawals_and_refunds
+  - action: utter_submenu_withdrawals_and_refunds
+  
+- story: Tuition Fees with sub menu other_fees_to_consider
+  steps:
+  - checkpoint: asked_submenu
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: other_fees_to_consider
+  - action: utter_submenu_other_fees_to_consider
+  
+- story: Tuition Fees with sub menu how_to_pay
+  steps:
+  - checkpoint: asked_submenu
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: how_to_pay
+  - action: utter_submenu_how_to_pay
+
+- story: Tuition Fees with sub menu program fee calculator
+  steps:
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: program_fee_calculator
+  - action: utter_submenu_program_fee_calculator
+
+- story: Tuition Fees with sub menu withdrawals_and_refunds
+  steps:
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: withdrawals_and_refunds
+  - action: utter_submenu_withdrawals_and_refunds
+  
+- story: Tuition Fees with sub menu other_fees_to_consider
+  steps:
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: other_fees_to_consider
+  - action: utter_submenu_other_fees_to_consider
+  
+- story: Tuition Fees with sub menu how_to_pay
+  steps:
+  - intent: tuition_and_fees
+    entities: 
+    - submenu: how_to_pay
+  - action: utter_submenu_how_to_pay
+  
+- story: financial aid
+  steps:
+  - intent: financial_aid
+  - action: utter_financial_aid
+  - action: utter_submenu_financial_aid
+ 
+- story: financial aid with sub menu
+  steps:
+  - intent: financial_aid
+    entities: 
+    - submenu_financial: osap
+  - action: utter_submenu_osap
+  
+- story: financial aid with sub menu
+  steps:
+  - intent: financial_aid
+    entities: 
+    - submenu_financial: scholarship_bursaries_and_rewards
+  - action: utter_submenu_scholarship_bursaries_and_rewards      
+
+- story: financial planning counselling
+  steps:
+  - intent: financial_planning_counselling
+  - action: utter_financial_planning_counselling 
+  
+- story: financial aid with on campus employment
+  steps:
+  - intent: on_campus_employment
+  - action: utter_on_campus_employment  
+   
+- story: program fee calculator
+  steps:
+  - intent: program_fee_calculator
+  - action: utter_program_fee_calculator  
+
+- story: budget calculator
+  steps:
+  - intent: budget_calculator
+  - action: utter_budget_calculator
+  
+- story: program fee calculator
+  steps:
+  - intent: program_fee_calculator
+  - action: utter_program_fee_calculator
+  
+- story: say goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+  
+- story: Tuition Fees with sub menu program fee calculator
+  steps:
+  - intent: program_fee_calculator
+  - action: utter_submenu_program_fee_calculator
+
+- story: Tuition Fees with sub menu withdrawals_and_refunds
+  steps:
+  - intent: submenu_withdrawal_and_refund
+  - action: utter_submenu_withdrawals_and_refunds
+  
+- story: Tuition Fees with sub menu other_fees_to_consider
+  steps:
+  - intent: submenu_other_fees_to_consider
+  - action: utter_submenu_other_fees_to_consider
+  
+- story: Tuition Fees with sub menu how_to_pay
+  steps:
+  - intent: submenu_how_to_pay
+  - action: utter_submenu_how_to_pay
+  
+- story: financial aid with sub menu
+  steps:
+  - intent: submenu_osap
+  - action: utter_submenu_osap
+
+- story: financial aid with submenu_scholarship_bursaries_and_rewards
+  steps:
+  - intent: submenu_scholarship_bursaries_and_rewards
+  - action: utter_submenu_scholarship_bursaries_and_rewards    

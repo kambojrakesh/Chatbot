@@ -1,0 +1,139 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - bot_challenge
+  - tuition_and_fees
+  - submenu_program_fee_calculator 
+  - submenu_other_fees_to_consider  
+  - submenu_how_to_pay
+  - submenu_withdrawal_and_refund  
+  - financial_aid   
+  - submenu_osap 
+  - submenu_scholarship_bursaries_and_rewards
+  - financial_planning_or_counselling
+  - program_fee_calculator
+  - budget_calculator
+  - financial_planning_counselling
+  - on_campus_employment
+  
+entities: 
+  - submenu
+  - submenu_financial
+  
+slots: 
+  submenu:
+    type: categorical
+    values:
+    - program_fee_calculator
+    - withdrawals_and_refunds
+    - other_fees_to_consider
+    - how_to_pay
+    
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+      
+  utter_main_menu:
+  - text: 'Please click on respective button to check price list.'
+    buttons:
+    - title: 'Tuition and Fees'
+      payload: '/tuition_and_fees'
+    - title: 'Financial Aid'
+      payload: '/financial_aid'
+    - title: 'Program Fee Calculator'
+      payload: '/program_fee_calculator'
+    - title: 'Budget Calculator'
+      payload: '/budget_calculator'
+    - title: 'On-Campus Employment'
+      payload: '/on_campus_employment'
+
+  utter_submenu_tution_fee:
+  - text: 'Please click on respective button to check price list.'
+    buttons:
+    - title: 'Program Fee Calculator'
+      payload: '/tuition_and_fees{{"submenu":"program_fee_calculator"}}'
+    - title: 'Other Fee to Consider'
+      payload: '/tuition_and_fees{{"submenu":"other_fees_to_consider"}}'
+    - title: 'how to pay'
+      payload: '/tuition_and_fees{{"submenu":"how_to_pay"}}'
+    - title: 'withdrawals and refunds'
+      payload: '/tuition_and_fees{{"submenu":"withdrawals_and_refunds"}}' 
+      
+  utter_submenu_financial_aid:
+  - text: 'Please click on respective button to check price list.'
+    buttons:
+    - title: 'OSAP'
+      payload: '/financial_aid{{"submenu_financial":"osap"}}'
+    - title: 'Scholarships, Bursaries and Awards'
+      payload: '/financial_aid{{"submenu_financial":"scholarship_bursaries_and_rewards"}}'
+
+  utter_tuition_and_fees:
+  - text: "For tution and fees please visit on https://durhamcollege.ca/financial-info/tuition-and-fees"
+
+  utter_submenu_program_fee_calculator:
+  - text: "For program fee calculator please visit on https://durhamcollege.ca/program-fee-calculator"
+  
+  utter_submenu_other_fees_to_consider:
+  - text: "For other fee calculator please visit on https://durhamcollege.ca/financial-info/tuition-and-fees/other-fees-to-consider"
+  
+  utter_submenu_how_to_pay:
+  - text: "You can choose one of the payment options available on https://durhamcollege.ca/financial-info/tuition-and-fees/how-to-pay" 
+  
+  utter_submenu_withdrawals_and_refunds:
+  - text: "Withdrawal and Refund information woul be available here https://durhamcollege.ca/financial-info/tuition-and-fees/withdrawals-and-refunds"
+  
+  utter_financial_aid:
+  - text: "You can check for available options on https://durhamcollege.ca/financial-info/financial-aid to learn more about the financial assistance given by the institution"
+  
+  utter_submenu_osap:
+  - text: "Go to our website 'Financial Info' page to know more about the OSAP program or visit direct link https://durhamcollege.ca/financial-info/financial-aid/osap"
+  
+  utter_submenu_scholarship_bursaries_and_rewards:
+  - text: "Explore here https://durhamcollege.ca/financial-info/financial-aid/scholarships-bursaries-and-awards given to find out more about bursaries and scholarship or contact-us here https://durhamcollege.ca/financial-info/financial-aid/contact-us"
+  
+  utter_financial_planning_counselling:
+  - text: "You need to register for workshop to get information about financial planning or you can book an appointment with a counsellor to help you prepare for a budget and the registration details are posted on MyCampus"
+
+  utter_program_fee_calculator:
+  - text: "For program fee calculator please visit on https://durhamcollege.ca/program-fee-calculator"
+  
+  utter_budget_calculator:
+  - text: "For budget calculation you can visit https://durhamcollege.ca/financial-info/budget-calculator"
+  
+  utter_on_campus_employment:
+  - text: "You can check here https://durhamcollege.ca/financial-info/on-campus-employment to know more for the on-campus employment."
+  
+  utter_welcome_durham_college:
+  - text: "Welcome Durham college finaacial department menu."
+  
+  utter_please_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+  
+  utter_default:
+  - text: "Sorry I didn't get that. Can you rephrase?"
+  
+  utter_ask_rephrase:
+  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+  
+ 
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

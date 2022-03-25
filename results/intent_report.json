@@ -1,0 +1,111 @@
+{
+  "tuition_and_fees": {
+    "precision": 0.9354838709677419,
+    "recall": 0.90625,
+    "f1-score": 0.9206349206349206,
+    "support": 32,
+    "confused_with": {
+      "budget_calculator": 2,
+      "submenu_other_fees_to_consider": 1
+    }
+  },
+  "financial_aid": {
+    "precision": 0.9545454545454546,
+    "recall": 0.9545454545454546,
+    "f1-score": 0.9545454545454546,
+    "support": 22,
+    "confused_with": {
+      "budget_calculator": 1
+    }
+  },
+  "financial_planning_or_counselling": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "on_campus_employment": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 14,
+    "confused_with": {}
+  },
+  "program_fee_calculator": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 13,
+    "confused_with": {
+      "tuition_and_fees": 1,
+      "budget_calculator": 1
+    }
+  },
+  "submenu_scholarship_bursaries_and_rewards": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "submenu_osap": {
+    "precision": 1.0,
+    "recall": 0.8571428571428571,
+    "f1-score": 0.923076923076923,
+    "support": 7,
+    "confused_with": {
+      "financial_aid": 1
+    }
+  },
+  "greet": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "budget_calculator": {
+    "precision": 0.9272727272727272,
+    "recall": 1.0,
+    "f1-score": 0.9622641509433962,
+    "support": 51,
+    "confused_with": {}
+  },
+  "submenu_other_fees_to_consider": {
+    "precision": 0.9666666666666667,
+    "recall": 1.0,
+    "f1-score": 0.983050847457627,
+    "support": 29,
+    "confused_with": {}
+  },
+  "submenu_how_to_pay": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 23,
+    "confused_with": {}
+  },
+  "submenu_withdrawal_and_refund": {
+    "precision": 1.0,
+    "recall": 0.9565217391304348,
+    "f1-score": 0.9777777777777777,
+    "support": 23,
+    "confused_with": {
+      "tuition_and_fees": 1
+    }
+  },
+  "accuracy": 0.9693486590038314,
+  "macro avg": {
+    "precision": 0.981997393287716,
+    "recall": 0.9600511580810495,
+    "f1-score": 0.9698347284252304,
+    "support": 261
+  },
+  "weighted avg": {
+    "precision": 0.9703437789088512,
+    "recall": 0.9693486590038314,
+    "f1-score": 0.9690090335317848,
+    "support": 261
+  }
+}

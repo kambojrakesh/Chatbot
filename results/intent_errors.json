@@ -1,0 +1,66 @@
+[
+  {
+    "text": "data regading educational cost",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.8183940649032593
+    }
+  },
+  {
+    "text": "is it possible to get the fees back?",
+    "intent": "submenu_withdrawal_and_refund",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.6362794041633606
+    }
+  },
+  {
+    "text": "ontario student assistance programs?",
+    "intent": "submenu_osap",
+    "intent_prediction": {
+      "name": "financial_aid",
+      "confidence": 0.9961133003234863
+    }
+  },
+  {
+    "text": "How much money i have to spend to do this course",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.9994650483131409
+    }
+  },
+  {
+    "text": "How do I compute my tuition fees?",
+    "intent": "program_fee_calculator",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999630451202393
+    }
+  },
+  {
+    "text": "I need some monetary help",
+    "intent": "financial_aid",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.9152386784553528
+    }
+  },
+  {
+    "text": "what is the total amount for fee?",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.8174700140953064
+    }
+  },
+  {
+    "text": "calculate expenditure for a Durham college?",
+    "intent": "program_fee_calculator",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.975507915019989
+    }
+  }
+]

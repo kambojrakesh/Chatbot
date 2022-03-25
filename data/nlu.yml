@@ -1,0 +1,566 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - good morning
+    - good evening
+    - moin
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+    
+- intent: tuition_and_fees
+  examples: |
+    - Durham College Fees
+    - i want to know about Durham College Fees
+    - i want to know about College Fees
+    - durham college tuition and fees
+    - can i get the details on tuition fees
+    - what are the information related to tuition fees? 
+    - i want to know tution fee information 
+    - what information about tuition fees 
+    - information on fee
+    - what are the tuition expenses for collage
+    - info on tution 
+    - info about fee
+    - college tuition costs infrmation
+    - data regading educational cost
+    - what is the total amount for fee?
+    - what is the cost of course
+    - How can I find out about the tuition and fees?
+    - what are the cost of educaton
+    - how much does college cost?
+    - How much money i have to spend to do this course
+    - Durham College Fees and Tuition
+    - Can you tell me more about tuition fees? 
+    - What information do you have about tuition fees?
+    - I am looking for information about tuition fees
+    - What information regarding tuition costs?
+    - How much does collage tuition cost?
+    - information on tuition
+    - information on fee
+    - the price of college tuition infrmation
+    - information about schooling costs
+    - How much does the course cost?
+    - Where can I learn more about tuition and fees?
+    - How much money will I need to complete this course?
+    - Other fees to consider at Durham College Do I need to budget for anything else?
+    - Are there any other fees?
+    - Are there any other charges?
+    - take into account additional fees
+    - what other costs should be considered
+    - Is there a cost that is not included in the main fees?
+    - what expenses are not covered- What are the concealed fees?
+    - to consider extra expenses- Keep an eye out for future chargs.
+    - Is there any extra cost associated with this programme?
+    - take into account other expenses- Are there any other fees?
+    - How can I find out if there are any additional fees
+    - What are the extra costs?
+    - Durham College will incur higher costs?
+    - Do you have any other charges?
+    - Are there any additional fees if I enrol in this course?
+    - what other costs should be considered
+    - Is there a cost in addition to the main fees?
+    
+- intent: submenu_other_fees_to_consider
+  examples: |   
+    - Durham college other fees to consider  
+    - do i need to consider any extra cost?
+    - Are there any other charges?
+    - are there any hidden fees
+    - consider extra charges
+    - what other expenses to be consider
+    - is there any other fee excluding the main fees 
+    - what charges are not included 
+    - what are the hidden charges 
+    - to think about additional charges
+    - look for futhur chargs
+    - Does this program contain any other fees?
+    - consider other cost
+    - are there any supplimentry fees
+    - how can i check for any additonal charges
+    - what are the additional cost
+    - additional costs for Durham College?
+    - Do you have any other fees?
+    - are there any hidden costs once I enrol in this course 
+    - what other expenditures to consider 
+    - is there any other fee than the main fees 
+    - what charges are not included 
+    - what hidden charges are there?
+    - to consider the possibility of extra fees
+    - Keep an eye out for new charges.
+    - Are there any additional expenses?
+    - take into account other costs 
+    - are there any more fees 
+    - how can I check for further charges 
+    - What are the extra expenses?
+    - Are there any other fees?
+    - Are there any hidden fees? 
+    - Are there any additional charges?
+    - What additional costs should be considered
+    - Are there any other expenses besides the main fees? 
+    - What charges are not included? 
+    - What are the hidden fees?
+    - to consider additional costs
+    - keep an eye out for future charges
+    - Are there any additional costs associated with this programme?
+    - Take into account additional expenses
+    - Are there any other fees? 
+    - How can I find out if there are any more fees?
+    - What are the extra costs?
+    - Durham College's increased costs?
+    - Do you have any other charges?
+    - Are there any hidden costs if I enrol in this course? 
+    - Are there any additional expenses to consider? 
+    - Is there any other price than the main fees? 
+    - What charges are not included?
+
+- intent: submenu_how_to_pay
+  examples: |
+    - how can I pay
+    - how to make a payment
+    - how to pay for it
+    - what is the procedure for payment
+    - what is the best way to pay
+    - may I know the payment method 
+    - what are the mode of payment?
+    - what are the various ways to make a payment
+    - how I can payment?
+    - how to make a payment?
+    - How does one go about making a payment?
+    - what is payment policy?
+    - what are the options of payment?
+    - how could I pay?
+    - how will I be able to pay?
+    - how will I be able to make a payment?
+    - what payment methods are available?
+    - what are the alternatives for the payment
+    - what are the various ways of the payment
+    - how can I pay?
+    - how to make a payment?
+    - how to pay for it?
+    - what is the procedure for payment?
+    - what is the best way to pay?   
+    - How will I be able to pay?
+    - What is the procedure for making a payment?
+    - How will you pay for it?
+    - What is the payment procedure?
+    - what is the best form of payment? 
+    - may I know the method of payment?
+    - what are the mode of payment?
+    - What are the various payment options?
+    - How can I make a payment?
+    - What is the procedure for making a payment?
+    - What is the procedure for making a payment?
+    - How do you handle payments?
+    - What are the payment options?
+    - How would I be able to pay?
+    - How am I going to be able to pay?
+    - How will I be able to pay my bill?
+    - What ways of payment are available?
+    - What payment options are available?
+    - What are the various payment options?
+    - How can I make a payment?
+    - What is the procedure for making a payment?
+
+- intent: submenu_withdrawal_and_refund
+  examples: |
+    - withdrawals 
+    - refund scheme 
+    - withdrawals and refund
+    - what is process to get refunds
+    - what is process to get refunds
+    - how to get refunds
+    - how to get withdrawal
+    - how to get refunds?
+    - how to get withdrawal?
+    - how can I do refunds process?
+    - how can I do withdrawal process?
+    - what are the steps to withdraw
+    - what are the steps for the refund
+    - how to withdraw from a course?
+    - may I know about refund policy?
+    - is it possible to get the fees back?
+    - what are refund and cancellation procedures?
+    - withdrawal and refund information
+    - can I get information for withdrawal
+    - can I get information for refund procedure
+    - can I get information for refund process
+    - what are the reimbursement options?
+    - reimbursement options?
+    - what options for withdrawal or refunds are available?
+
+
+- intent: financial_aid
+  examples: |
+    - financial support given by durham college
+    - financial help options
+    - what are financial help options
+    - financial help
+    - financial aid
+    - financial support given by durham college
+    - I need some monetary help
+    - I want to know about financial support given by durham college
+    - can you please assist me with finances?
+    - I am looking for financial information.
+    - what kind of financial data is available?
+    - what financial aid is given to help students?
+    - I want to know financial related support
+    - can i get financial advice here?
+    - how many financial options available? 
+    - can you please assist me with finances?
+    - i am looking for financial information
+    - Durham College provides financial assistance
+    - financial assistance possibilities
+    - What financial assistance options are available?
+    - What types of financial aid are available?
+    - assist me with finances?
+    - assist me with finances
+    - durham college financial support
+    - Durham College provides financial assistance
+    - financial assistance possibilities
+    - What financial assistance alternatives are available?
+    - financial assistance
+    - financial assistance
+    - Durham College provides financial assistance
+    - I need some financial assistance.
+    - I need some financial aid.
+    - I would like to learn more about the financial aid offered by Durham College.
+    - Could you possibly aid me with my financial situation?
+    - I am in need of financial information.
+    - What kind of financial information are available?
+    - What types of financial aid are available to assist students?
+    - I am looking for financial assistance.
+    - Is it possible to seek financial advice here?
+    - how many financial options available?
+    - Could you possibly aid me with my financial situation?
+    - I am searching for financial data.
+    - Durham College has a financial aid programme.
+    - Possible options for financial support
+    - What kind of financial aid are available?
+    - What financial aid options are available?
+    - can you help me with my finances?  
+    
+- intent: submenu_osap
+  examples: |
+    - what is osap
+    - OSAP program
+    - ontario student assistance programs?
+    - what is OSAP program?
+    - what is OSAP program
+    - what are the student help programmes in Ontario?
+    - What is the OSAP programme?
+    - What does OSAP (Ontario Student Assistance Programs) stand for?
+    - What exactly is the OSAP programme?
+    - What exactly is the OSAP programme?
+    - What student assistance programmes are available in Ontario?
+    - How does the OSAP programme work?
+    
+- intent: submenu_scholarship_bursaries_and_rewards
+  examples: |
+    - Durham college rewards
+    - Durham college scholarship
+    - Durham college bursaries
+    - Durham college scholarship bursaries
+    - scholarship bursaries and rewards
+    - may i know what are the requirements for receiving a scholarship?
+    - what are the information about scholarship?
+    - want to know about a variety of scholarship opportunities?
+    - what are the different types of scholarship information
+    - which burseries are included according to age?
+    - what are the rewards?
+    - What kind of bursaries did you offer in terms of education?
+    - what different options for burseries are there?
+    - can you explain details on burseries provided?
+    - compensation between busries,scholarship and rewards
+    - what are the importance of scholarship, burseries and rewards?
+    - can i get to know about services available for scholarship, burseries and awards?
+    - what prefernces available for scholarship and bursaries? 
+    - what are the scholarship available?
+    - what are the bursaries provided?
+    - i want to know about Durham college rewards
+    - i want to know about Durham college scholarship
+    - i want to know about Durham college bursaries
+    - i want to know about Durham college rewards
+    - Durham College Scholarships
+    - Durham scholarship for college
+    - Durham College Bursaries - Durham College Scholarship Bursaries 
+    - Durham College Scholarship Bursaries 
+    - Durham College Scholarship Bur
+    - Could you tell me what the prerequisites are for getting a scholarship?
+    - What scholarship information is available?
+    - Are you looking for information about a range of scholarship opportunities?
+    - What are the various forms of scholarship data?
+    - Which burseries are included in each age group?
+    - What are the incentives?
+    - What type of educational bursaries did you provide?
+    - What are the different types of burseries?
+    - Could you elaborate on the burseries provided?
+    - remuneration for business, scholarship, and incentives
+    - How important are scholarships, bursaries, and awards?
+    - Can you tell me about scholarship, bursary, and award services that are available?
+    - What scholarship and bursary preferences are available?
+    - What are the scholarship opportunities?
+- intent: financial_planning_or_counselling
+  examples: |
+    - money management
+    - counselling
+    - financial planning 
+    - financial planning or counselling
+    - may I know about financial plannig?
+    - may I know about counselling?
+    - may I know about financial planning or counselling?
+    - i would like to know about finance or counselling
+    - what financial planning services are provided by college?
+    - what counselling services are provided by college?
+    - i want to know about financial planning
+    - i want to know about Durham counselling
+    - i want to know about money management
+    - i want to know about financial planning services
+    - money management
+    - counselling
+    - financial planning 
+    - financial planning or counselling
+    - may I know about financial plannig?
+    - may I know about counselling?
+    - may I know about financial planning or counselling?
+    - i would like to know about finance or counselling
+    - what financial planning services are provided by college?
+    - what counselling services are provided by college?
+    - i want to know about financial planning
+    - i want to know about Durham counselling
+    - i want to know about money management
+    - i want to know about financial planning services
+    - financial planning - counselling
+    - money management
+    - financial advice or planning
+    - Could you tell me more about financial planning?
+    - Could you tell me more about counselling?
+    - Do you have any information on financial planning or counselling?
+    - I am interested in learning more about money or counselling.
+    - What financial planning services does college provide?
+    - What kind of counselling services does the college offer?
+    - I am interested in learning more about financial planning.
+    - I want to learn more about Durham counselling.
+    - I want to learn more about money management.
+    - I looking for information about financial planning services.
+    - financial planning - counselling
+    - money management
+    - financial advice or planning
+    - Could you tell me more about financial planning?
+    - Could you tell me more about counselling?
+    - Do you have any information on financial planning or counselling?
+    - I'm interested in learning more about money or counselling.
+    - Who provides financial planning services?
+- intent: program_fee_calculator
+  examples: |
+    - calculate the fees
+    - calculate tution fees
+    - how to calculate tution fees
+    - how I can calculate the fees
+    - may I know how I can calculate the fees for the course
+    - how I can calculate course fees
+    - how I can access the fees calculator
+    - what does the fees calculator estimates
+    - calculate the fees?
+    - calculate tution fees?
+    - how to calculate tution fees?
+    - How do I compute my tuition fees?
+    - calculate expenditure for a Durham college? 
+    - calculate the fees
+    - calculate tution fees
+    - how to calculate tution fees
+    - how I can calculate the fees
+    - may I know how I can calculate the fees for the course
+    - how I can calculate course fees
+    - how I can access the fees calculator
+    - what does the fees calculator estimates
+    - calculate the fees?
+    - calculate tution fees?
+    - how to calculate tution fees?
+    - How do I compute my tuition fees?
+    - calculate expenditure for a Durham college? 
+    
+- intent: budget_calculator
+  examples: |
+    - budget calculator
+    - Durham college budget calculator
+    - the budget calculator
+    - calculate yearly income
+    - i want to know about budget calculator
+    - i want to know info about budget calculator
+    - i want to know information on budget calculator
+    - a budget planner
+    - calculator for Durham College Budget
+    - the budget planner
+    - I want to know how to calculate yearly income 
+    - I would like to know how to use a budget calculator
+    - I want to learn more about budget calculator 
+    - I would like to learn more about budget calculator
+    - yearly income calculation
+    - annual income calculation
+    - how to calculate budget?
+    - how can I calculate my earned yearly income? 
+    - how can I figure out how much money 
+    - I have made in a year?
+    - How can I figure out how much money 
+    - how can i estimate my budget?
+    - what can I do to evaluate my annual earnings?
+    - how to invest money properly?
+    - calculate an estimate of income 
+    - Estimate annual earnings
+    - calculating annual earnings
+    - calculating yearly income
+    - How do you figure up your budget?
+    - What will my annual income be while I am studying?
+    - How much do I earn every year while I am in school?
+    - How much money do I make on a yearly basis when working part-time?
+    - What is the best way for me to estimate my budget?
+    - How can I calculate the amount of money I will need to spend?
+    - What options do I have for evaluating my annual earnings?
+    - Estimate income and expenditure for a business.
+    - Determine annual earnings
+    - calculating annual income
+    - Estimated annual earnings
+    - How do you figure out how much money you have?
+    - How can I figure out how much money I have made?
+    - How can I calculate how much money I have earned in a year?
+    - How can I figure out how much money I have made in a year?
+    - How much money do I make per year while I am in school?
+    - How much do I earn per year while I am in school?
+    - How much money do I make on a yearly basis working part-time?
+    - How do I figure out how much money I will need?
+    - How can I calculate the amount of money I will need?
+    - How can I assess my annual income?
+    - annual income calculation
+    - annual income
+    - annual income calculator
+    - budget calculator
+    - Durham college budget calculator
+    - the budget calculator
+    - calculate yearly income
+    - i want to know about budget calculator
+    - i want to know info about budget calculator
+    - i want to know information on budget calculator
+    - a budget planner
+    - calculator for Durham College Budget
+    - the budget planner
+    - I want to know how to calculate yearly income 
+    - I would like to know how to use a budget calculator
+    - I want to learn more about budget calculator 
+    - I would like to learn more about budget calculator
+    - yearly income calculation
+    - annual income calculation
+    - how to calculate budget?
+    - how can I calculate my earned yearly income? 
+    - how can I figure out how much money 
+    - I have made in a year?
+    - How can I figure out how much money 
+    - how can i estimate my budget?
+    - what can I do to evaluate my annual earnings?
+    - how to invest money properly?
+    - calculate an estimate of income 
+    - Estimate annual earnings
+    - calculating annual earnings
+    - calculating yearly income
+    - How do you figure up your budget?
+    - What will my annual income be while I am studying?
+    - How much do I earn every year while I am in school?
+    - How much money do I make on a yearly basis when working part-time?
+    - What is the best way for me to estimate my budget?
+    - How can I calculate the amount of money I will need to spend?
+    - What options do I have for evaluating my annual earnings?
+    - Estimate income and expenditure for a business.
+    - Determine annual earnings
+    - calculating annual income
+    - Estimated annual earnings
+    - How do you figure out how much money you have?
+    - How can I figure out how much money I have made?
+    - How can I calculate how much money I have earned in a year?
+    - How can I figure out how much money I have made in a year?
+    - How much money do I make per year while I am in school?
+    - How much do I earn per year while I am in school?
+    - How much money do I make on a yearly basis working part-time?
+    - How do I figure out how much money I will need?
+    - How can I calculate the amount of money I will need?
+    - How can I assess my annual income?
+    - annual income calculation
+    - annual income
+    - annual income calculator
+    - a budget planner
+    - Calculator for Durham College Budget
+    - the budget planner
+    - I want to know how to calculate yearly income 
+    - I like to know how to use a budget calculator
+    - I want to learn more about budget calculators.
+    - I want to learn more about budget calculators.
+    - a financial planner
+    - Durham College Budget Calculator
+    - the financial planner
+    - I want to learn how to calculate annual earnings; 
+    - I like to learn how to utilise a budget calculator
+    - I interested in learning more about budget calculators.
+    - I interested in learning more about budget calculator.
+    - calculating annual earnings
+    - how to establish a budget based on annual income?
+    - How can I figure out how much money ?
+    - How can I calculate how much money I have?
+- intent: on_campus_employment
+  examples: |
+    - on campus employment
+    - employment on campus
+    - can i have on campus job?
+    - is there any on-campus job oppurtinities?
+    - what are the jobs available on campus?
+    - Are there any career opportunities on campus?
+    - What are the work opportunities on campus?
+    - am I eligible for an on-campus job?
+    - Are there any career opportunities on campus?
+    - What are the work opportunities on campus?
+    - Do you have any job possibilities on campus?
+    - Are there any job openings on campus?
+    - i want to know about on campus employment
+    - i want to know about on-campus job oppurtinities
+    - i want to know about Durham job oppurtinities
+    - Durham job oppurtinities
+    - on campus employment
+    - employment on campus
+    - can i have on campus job?
+    - is there any on-campus job oppurtinities?
+    - what are the jobs available on campus?
+    - Are there any career opportunities on campus?
+    - What are the work opportunities on campus?
+    - am I eligible for an on-campus job?
+    - Are there any career opportunities on campus?
+    - What are the work opportunities on campus?
+    - Do you have any job possibilities on campus?
+    - Are there any job openings on campus?
+    - i want to know about on campus employment
+    - i want to know about on-campus job oppurtinities
+    - i want to know about Durham job oppurtinities
+    - Durham job oppurtinities
+    - on-campus job opportunities
+    - on-campus employment 
+    - am I allowed to work on campus?
+    - Are there any career opportunities on campus?
+    - What are the work opportunities on campus?
+    - Do you have any job possibilities on campus?
+    - Are there any job openings on campus?
+    - Am I qualified for a job on campus?
+    - Do you have any job possibilities on campus?
+    - Are there any job openings on campus?
+    - Are there any career opportunities on campus for you?
+    - Do you know whether there are any employment vacancies on campus?
+    - I want to learn more about on-campus jobs.
+    - I want to learn more about on-campus employment opportunities.
+    - I like to learn more about work opportunities in Durham.
+    - Employment opportunities in Durham
+    - on-campus job opportunities
+    - on-campus employment
+    - Is it possible for me to work on campus?
+    - Are there any career opportunities on campus?

@@ -1,0 +1,201 @@
+version: "2.0"
+
+nlu:
+    
+- intent: tuition_and_fees
+  examples: |
+    - I'd like to learn more about Durham College's fees.
+    - I'd like to learn more about College Fees.
+    - Durham College Fees and Tuition
+    - Can you tell me more about tuition fees? - What information do you have about tuition fees?
+    - Hello, I'd like to learn more. information about tuition fees
+    - What information regarding tuition costs are you looking for?
+    - information on fees - what are the costs of collage tuition?
+    - information on tuition
+    - charge information
+    - the price of college tuition data on educational costs (infrmation)
+    - How much does it cost to attend university?
+    - How much does the course cost?
+    - Where can I learn more about tuition and fees?
+    - How much does education cost?
+    - What is the cost of college?
+    - How much money will I need to complete this course?
+    - Durham College Tuition & Fees
+    - Could you elaborate on the cost of tuition?
+    - Do you have any information about tuition fees?
+    - I'm trying to find out about tuition costs.
+    - Do you have any information on tuition costs?
+    - tuition costs - How much does it cost to go to collage?
+    - tuition information
+    - cost information
+    - the cost of higher education infrmation
+    - information on the expenses of education
+    - What is the cost of attending university?
+    - What is the price of the course?
+    - Where can I find out more information about tuition and fees?
+    - What is the cost of education?
+    - How much does college cost?
+    - What is the approximate cost of completing this course?
+
+
+    
+- intent: submenu_other_fees_to_consider
+  examples: |   
+    - Other Durham College fees to consider 
+    - do I need to factor in any other costs?
+    - Are there any other fees?
+    - hey, are there any hidden fees once I enrol in this course - think about extra charges 
+    - think about other expenditures 
+    - is there any other price outside the main fees 
+    - what charges are not included 
+    - what are the hidden charges
+    - to consider additional costs
+    - keep an eye out for future charges
+    - Are there any additional costs associated with this programme?
+    - think about other costs 
+    - are there any more fees 
+    - how can I check for further charges 
+    - what are the extra costs
+    - Do I need to account for any additional Durham College expenses?
+    - Do you have any other charges?
+    - Are there any hidden costs if I enrol in this course? 
+    - Are there any additional fees to consider? 
+    - What additional expenses should be considered? 
+    - Is there any other cost besides the main fees? 
+    - What charges are not included? 
+    - Are there any hidden charges?
+    - to take into account the risk of additional charges
+    - Be on the lookout for any new charges.
+    - Are there any additional costs associated with this programme?
+    - Consider additional expenses
+    
+- intent: submenu_how_to_pay
+  examples: |
+    - how do I pay 
+    - how do I make a payment 
+    - how do I pay for it 
+    - what is the payment procedure 
+    - what is the best way to pay 
+    - what is the payment method 
+    - what are the payment modes?
+    - What are the various payment options? 
+    - Could you tell me how I may make a payment?
+    - Could you please inform me how I may make a payment?
+    - What is the procedure for making a payment?
+    - How do you handle payments?
+    - What are the payment options?
+    - How would I be able to pay?
+    - How am I going to be able to pay?
+    - How will I be able to pay my bill?
+    - What ways of payment are available?
+    - Are there any other payment options?
+    - What payment options are available?
+    - What are the various payment options?
+    - How can I make a payment?
+    - What is the procedure for making a payment?
+    - How are you going to pay for it?
+    - What is the payment procedure?
+    - What is the most efficient method of payment?
+ 
+- intent: submenu_withdrawal_and_refund
+  examples: |
+    - a reimbursement
+    - refunds and withdrawals
+    - What is the procedure for receiving refunds?
+    - What is the procedure for receiving refunds?
+    - Refunds and how to receive them
+    - How do I withdraw money?
+    - How can I request a refund?
+    - What is the procedure for withdrawal?
+    - How do I go about getting refunds?
+    - How do I go about withdrawing money?
+    - What are the procedures for withdrawing?
+    - What are the procedures for obtaining a refund?
+    - Is it possible to receive a refund of the fees?
+    - How do I get a refund or cancel my reservation?
+    - information on withdrawals and refunds 
+    - can I receive information on withdrawals?
+    - Can you provide me with details on the refund procedure?
+    - Is it feasible for me to obtain further information on the cancellation policy?
+    - What information about withdrawals and refunds is available?
+    - information about tuition fees withdrawal
+
+    
+- intent: financial_aid
+  examples: |
+    - financial assistance possibilities
+    - What financial assistance alternatives are available?
+    - financial assistance
+    - financial assistance
+    - need of some financial assistance.
+    - financial aid offered by Durham College.
+    - Could you possibly aid me with my financial situation?
+    - I'm in need of financial information.
+    - Will you offer some financial details?
+    - What kind of financial information are available?
+    - What types of financial aid are available to assist students?
+    - I'm looking for financial assistance.
+    - Is it possible to seek financial advice here?
+    - How many different financial possibilities are there?
+    - What steps do I need to take to gain access to financial services?
+    
+- intent: submenu_osap
+  examples: |
+    - osap
+    - what are the student help programmes in Ontario?
+    - What is the OSAP programme? 
+
+- intent: submenu_scholarship_bursaries_and_rewards
+  examples: |
+    - Could you tell me what the eligibility criteria are for earning a scholarship?
+    - Do you have any scholarship information?
+    - about various scholarship opportunities?
+    - What forms of scholarship information are available?
+    - Did you have any educational bursaries available?
+    - What are the various burseries possibilities available?
+    - Could you maybe clarify the burseries supplied in more detail?
+    - Business, scholarship, and prize compensation
+    - What role do scholarships, bursaries, and awards play in higher education?
+
+- intent: financial_planning_or_counselling
+  examples: |
+    - financial advice or planning
+    - Could you tell me more about financial planning?
+    - Could you tell me more about counselling?
+    - Do you have any information on financial planning or counselling?
+    - I'd like to learn everything there is to know about money or counselling.
+    - What financial planning services does college provide?
+    - What kind of counselling services does the college offer?
+    
+- intent: program_fee_calculator
+  examples: |
+    - Determine the fees
+    - how to calculate tuition fees 
+    - how do I calculate fees 
+    - can you tell me how to calculate course costs 
+    - how do I calculate course fees
+    - How can I get to the charge calculator?
+    - What are the fees calculator's predictions?
+    - Is the fees calculator used to compute course costs or tuition fees?
+    - Does the charge calculator calculate course or tuition fees?
+    - What is the formula for calculating tuition fees?
+    
+- intent: budget_calculator
+  examples: |
+    - budget calculator
+    - Durham college budget calculator
+    - How much do I earn each year while attending school?
+    - How much money do I make every year while in school?
+    - How much money do I make working part-time on an annual basis?
+    - How can I calculate how much money I'll require?
+    - How can I figure out how much money I'll need?
+    - How do I calculate my annual earnings?
+    
+- intent: on_campus_employment
+  examples: |
+    - can I get a job on campus 
+    - can I get a job on campust 
+    - Are there any career opportunities on campus?
+    - What are the work opportunities on campus?
+    
+
