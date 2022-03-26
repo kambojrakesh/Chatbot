@@ -7,31 +7,38 @@ pipeline:
 # # If you'd like to customize it, uncomment and adjust the pipeline.
 # # See https://rasa.com/docs/rasa/tuning-your-model for more information.
    - name: "spellchecking.CorrectSpelling"
+
+   #- name: "spellchecking1.SpellCheckerCorrection"
+     #language: "de"
+     #distance: 2
+     #word_freq_file: "resources/usa.txt
+
+
    - name: WhitespaceTokenizer
    - name: RegexFeaturizer
    - name: LexicalSyntacticFeaturizer
    - name: CountVectorsFeaturizer
    - name: CountVectorsFeaturizer
      analyzer: char_wb
-     min_ngram: 1
-     max_ngram: 4
+     min_ngram: 2
+     max_ngram: 5
    - name: DIETClassifier
-     epochs: 200
+     epochs: 100
    # other components
    - name: FallbackClassifier
-     threshold: 0.7
+     threshold: 0.99
 
 
 policies:
    - name: RulePolicy
-     core_fallback_threshold: 0.4
+     core_fallback_threshold: 0.99
      core_fallback_action_name: "action_default_fallback"
      enable_fallback_prediction: True
    - name: AugmentedMemoizationPolicy 
      max_history: 6
    - name: TEDPolicy
-     max_history: 10
-     epochs: 200
+     max_history: 5
+     epochs: 100
      batch_size:
      - 32
      - 64

@@ -1,0 +1,306 @@
+[
+  {
+    "text": "take into account additional fees",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999878406524658
+    }
+  },
+  {
+    "text": "what other costs should be considered",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999878406524658
+    }
+  },
+  {
+    "text": "take into account other expenses Are there any other fees",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9998914003372192
+    }
+  },
+  {
+    "text": "Do you have any other charges",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999826550483704
+    }
+  },
+  {
+    "text": "Does this program contain any other fees",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9901247620582581
+    }
+  },
+  {
+    "text": "data reading educational cost",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9910057187080383
+    }
+  },
+  {
+    "text": "Is there any extra cost associated with this programmed",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.5908665657043457
+    }
+  },
+  {
+    "text": "How can I find out if there are any additional fees",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999938011169434
+    }
+  },
+  {
+    "text": "Are there any additional fees if I enrol in this course",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.7968921065330505
+    }
+  },
+  {
+    "text": "Take into account additional expenses",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999988079071045
+    }
+  },
+  {
+    "text": "Do you have any other charges",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999979734420776
+    }
+  },
+  {
+    "text": "what is soap",
+    "intent": "submenu_osap",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.7517070770263672
+    }
+  },
+  {
+    "text": "Other fees to consider at Durham College Do I need to budget for anything else",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9983505010604858
+    }
+  },
+  {
+    "text": "Are there any other fees",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999914169311523
+    }
+  },
+  {
+    "text": "Are there any other charges",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9974634647369385
+    }
+  },
+  {
+    "text": "What are the extra costs",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999979734420776
+    }
+  },
+  {
+    "text": "Durham College will incur higher costs",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999854564666748
+    }
+  },
+  {
+    "text": "What are the incentives",
+    "intent": "submenu_scholarship_bursaries_and_rewards",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.999388575553894
+    }
+  },
+  {
+    "text": "How do I compute my tuition fees",
+    "intent": "program_fee_calculator",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999996423721313
+    }
+  },
+  {
+    "text": "How much money i have to spend to do this course",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.9999769926071167
+    }
+  },
+  {
+    "text": "How much money will I need to complete this course",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.9999904632568359
+    }
+  },
+  {
+    "text": "do i need to consider any extra cost",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999910593032837
+    }
+  },
+  {
+    "text": "what are the additional cost",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.8933640718460083
+    }
+  },
+  {
+    "text": "What are the extra expenses",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999898076057434
+    }
+  },
+  {
+    "text": "Are there any other expenses besides the main fees",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9463158249855042
+    }
+  },
+  {
+    "text": "What are the extra costs",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9999967813491821
+    }
+  },
+  {
+    "text": "what are the reimbursement options",
+    "intent": "submenu_withdrawal_and_refund",
+    "intent_prediction": {
+      "name": "submenu_scholarship_bursaries_and_rewards",
+      "confidence": 0.9998730421066284
+    }
+  },
+  {
+    "text": "reimbursement options",
+    "intent": "submenu_withdrawal_and_refund",
+    "intent_prediction": {
+      "name": "submenu_scholarship_bursaries_and_rewards",
+      "confidence": 0.9999352097511292
+    }
+  },
+  {
+    "text": "soap",
+    "intent": "submenu_osap",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.9895135164260864
+    }
+  },
+  {
+    "text": "Can you tell me more about tuition fees",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.7696290016174316
+    }
+  },
+  {
+    "text": "Where can I learn more about tuition and fees",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.6556228399276733
+    }
+  },
+  {
+    "text": "to consider extra expenses Keep an eye out for future charge",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_other_fees_to_consider",
+      "confidence": 0.9999998807907104
+    }
+  },
+  {
+    "text": "Are there any other charges",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9487915635108948
+    }
+  },
+  {
+    "text": "what charges are not included",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9994041323661804
+    }
+  },
+  {
+    "text": "take into account other costs",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9996009469032288
+    }
+  },
+  {
+    "text": "What charges are not included",
+    "intent": "submenu_other_fees_to_consider",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9994041323661804
+    }
+  },
+  {
+    "text": "is it possible to get the fees back",
+    "intent": "submenu_withdrawal_and_refund",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9967588186264038
+    }
+  },
+  {
+    "text": "calculate expenditure for a Durham college",
+    "intent": "program_fee_calculator",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.9999159574508667
+    }
+  }
+]

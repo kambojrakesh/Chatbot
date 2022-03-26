@@ -1,0 +1,115 @@
+{
+  "on_campus_employment": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 25,
+    "confused_with": {}
+  },
+  "financial_planning_or_counselling": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 28,
+    "confused_with": {}
+  },
+  "submenu_withdrawal_and_refund": {
+    "precision": 1.0,
+    "recall": 0.8695652173913043,
+    "f1-score": 0.9302325581395349,
+    "support": 23,
+    "confused_with": {
+      "submenu_scholarship_bursaries_and_rewards": 2,
+      "tuition_and_fees": 1
+    }
+  },
+  "program_fee_calculator": {
+    "precision": 1.0,
+    "recall": 0.8461538461538461,
+    "f1-score": 0.9166666666666666,
+    "support": 13,
+    "confused_with": {
+      "tuition_and_fees": 1,
+      "budget_calculator": 1
+    }
+  },
+  "submenu_osap": {
+    "precision": 1.0,
+    "recall": 0.8333333333333334,
+    "f1-score": 0.9090909090909091,
+    "support": 12,
+    "confused_with": {
+      "tuition_and_fees": 1,
+      "greet": 1
+    }
+  },
+  "financial_aid": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 39,
+    "confused_with": {}
+  },
+  "submenu_scholarship_bursaries_and_rewards": {
+    "precision": 0.9534883720930233,
+    "recall": 0.9761904761904762,
+    "f1-score": 0.9647058823529412,
+    "support": 42,
+    "confused_with": {
+      "submenu_other_fees_to_consider": 1
+    }
+  },
+  "budget_calculator": {
+    "precision": 0.9552238805970149,
+    "recall": 1.0,
+    "f1-score": 0.9770992366412213,
+    "support": 64,
+    "confused_with": {}
+  },
+  "greet": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "submenu_how_to_pay": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 38,
+    "confused_with": {}
+  },
+  "tuition_and_fees": {
+    "precision": 0.6666666666666666,
+    "recall": 0.625,
+    "f1-score": 0.6451612903225806,
+    "support": 48,
+    "confused_with": {
+      "submenu_other_fees_to_consider": 16,
+      "budget_calculator": 2
+    }
+  },
+  "submenu_other_fees_to_consider": {
+    "precision": 0.6730769230769231,
+    "recall": 0.7446808510638298,
+    "f1-score": 0.7070707070707072,
+    "support": 47,
+    "confused_with": {
+      "tuition_and_fees": 12
+    }
+  },
+  "accuracy": 0.9023136246786633,
+  "macro avg": {
+    "precision": 0.9297955626270448,
+    "recall": 0.9079103103443992,
+    "f1-score": 0.9168673502221262,
+    "support": 389
+  },
+  "weighted avg": {
+    "precision": 0.9046436104412349,
+    "recall": 0.9023136246786633,
+    "f1-score": 0.9023058594047433,
+    "support": 389
+  }
+}

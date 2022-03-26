@@ -30,6 +30,11 @@ slots:
     - withdrawals_and_refunds
     - other_fees_to_consider
     - how_to_pay
+  submenu_financial:
+    type: categorical
+    values:
+    - scholarship_bursaries_and_rewards
+    - osap 
     
 responses:
   utter_greet:
