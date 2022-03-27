@@ -3,24 +3,192 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - What's up
-    - ahoy
-    - good afternoon
-    - goodmorning
-    - good evening
-    - hi there
-    - hey rigd
-    - Hello
-    - Hi
-    - Hey
-    - Howdy
-    - evening
+    - hey
+    - hello
+    - hi
     - good morning
-    - goodafternoon
+    - good evening
+    - moin
+    - hey dude
+    - goodmorning
     - goodevening
+    - good afternoon
+    - Good Morning
+    - Good morning
+    - Good mourning
+    - Guten Morgen
+    - HELLO
+    - HEY
+    - HEllo
+    - HI
+    - HI
+    - Hallo
+    - Hei
+    - Hellllooooooo
+    - Hello
+    - Hello!
+    - Hey
+    - Hey Sara
+    - Hey bot
+    - Heya
+    - Heylo
+    - Hi
+    - Hi!
+    - Hi'
+    - Hi,
+    - Hi, bot
+    - Hieee
+    - Hieeeeeeeeeeeee
+    - Hola
+    - I said, helllllloooooO!!!!
+    - Well hello there ;)
+    - What is up?
+    - Whats up
+    - Whats up my bot
+    - Whats up?
+    - good evening
+    - good moring
+    - good morning
+    - greet
+    - greetings
+    - hai
+    - hallo
+    - hallo sara
+    - halloo
+    - halloooo
+    - heeey
+    - heelio
+    - hell9o
+    - hellio
+    - hello
+    - hello Sara
+    - hello everybody
+    - hello friend
+    - hello hi
+    - hello is anybody there
+    - hello it is me again
+    - hello robot
+    - hello sara
+    - hello sweatheart
+    - hello sweet boy
     - hello there
-    - morning
-    - good day
+    - hello world
+    - hellooo
+    - helloooo
+    - helo
+    - hey
+    - hey bot
+    - hey bot!
+    - hey dude
+    - hey hey
+    - hey let's talk
+    - hey rasa
+    - hey sara
+    - hey ther
+    - hey there
+    - hey there boy
+    - hey there..
+    - hey, let's talk
+    - heya
+    - heyho
+    - heyo
+    - hhola
+    - hi
+    - hi !
+    - hi Mister
+    - hi again
+    - hi can you speak ?
+    - hi folks
+    - hi friend
+    - hi friends
+    - hi hi
+    - hieee
+    - hii
+    - hiihihi
+    - hiii
+    - hlo
+    - howdy
+    - rasa hello
+    - wasssup
+    - wasssup!
+    - what up
+    - whats popping
+    - whats up
+    - helleo
+    - Hello there!
+    - Have a pleasant evening
+    - mona
+    - hello there, man
+    - Greetings!
+    - hello there
+    - Have a pleasant afternoon
+    - Hello there!
+    - Greetings!
+    - Sincere condolences
+    - Good morning
+    - WELCOME
+    - HELLO!
+    - Hello there
+    - Greetings
+    - Greetings
+    - Hello there
+    - Hello,
+    - Hello, hello, hello, hello, hello, hello, hello, hello, hello, hello, hello
+    - Good day.
+    - Hello there!
+    - Hello there.
+    - Hello, Sara
+    - Hello, bot.
+    - Hello there.
+    - Hello there
+    - Hello there.
+    - Hello!
+    - Hello'
+    - Hello,
+    - Hello, bot.
+    - Helloeeeeeeeeeeeeeeee
+    - Helloeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+    - Hello there.
+    - "HelllllloooooO!!!!" I exclaimed.
+    - Greetings, there ;)
+    - How are you?
+    - How are you?
+    - How are you, my bot?
+    - How are you?
+    - Have a pleasant evening
+    - Hello there!
+    - Hello there!
+    - greetings
+    - Best wishes
+    - hello
+    - hello there
+    - Greetings, Sara
+    - hello there
+    - hello there!
+    - hey hey hey hey hey hey hey hey hey
+    - the heelio
+    - devil9o
+    - Hello there
+    - Good day, Sara
+    - Good day, everyone
+    - Hello there, pal
+    - hello hello
+    - Hello, is there anyone there?
+    - Hello there, it's me again.
+    - Hello there, robot
+    - Greetings, Sara
+    - Greetings, sweatheart
+    - Hello there, sweetie
+    - Good day there
+    - Good day, world
+    - Greetings
+    - oh my god
+    - Greetings
+    - hello there
+    - Hello, bot
+    - Hello, bot!
+    - hello there, man
+    - hello there
     
 - intent: tuition_and_fees
   examples: |
@@ -200,7 +368,8 @@ nlu:
     - What are the various payment options?
     - How can I make a payment?
     - What is the procedure for making a payment?
-
+    - option to pay tution fee
+    - the possibility of paying tuition fees
 - intent: submenu_withdrawal_and_refund
   examples: |
     - withdrawals 
@@ -442,11 +611,18 @@ nlu:
     - Do you have any information on financial planning or counselling?
     - I am interested in learning more about money or counselling.
     - Who provides financial planning services?
+
 - intent: program_fee_calculator
   examples: |
+    - fee calculator
+    - program calculate tution fee
     - calculate the fee
     - calculate the fee
     - calculate program fee calculator
+    - Charging Calculator
+    - Fee calculating tool
+    - Calculator for charges
+    - Calculator for fees
     - program investment calculator
     - how to calculate tution fee
     - how I can calculate the fee
@@ -604,6 +780,7 @@ nlu:
 - intent: on_campus_employment
   examples: |
     - on campus employment
+    - on campus jobs
     - employment on campus
     - can i have on campus job?
     - is there any on-campus job oppurtinities?

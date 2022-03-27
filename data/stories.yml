@@ -125,20 +125,15 @@ stories:
   - intent: budget_calculator
   - action: utter_budget_calculator
   
-- story: program fee calculator
-  steps:
-  - intent: program_fee_calculator
-  - action: utter_program_fee_calculator
-  
 - story: say goodbye
   steps:
   - intent: goodbye
   - action: utter_goodbye
   
-- story: Tuition Fees with sub menu program fee calculator
-  steps:
-  - intent: program_fee_calculator
-  - action: utter_submenu_program_fee_calculator
+#- story: Tuition Fees with sub menu program fee calculator
+  #steps:
+  #- intent: program_fee_calculator
+  #- action: utter_submenu_program_fee_calculator
 
 - story: Tuition Fees with sub menu withdrawals_and_refunds
   steps:
