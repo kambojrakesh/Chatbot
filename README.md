@@ -11,3 +11,6 @@ pip install pyspellchecker</br>
 ---------------------------------</br>
 rasa train</br>
 rasa shell</br>
+
+------</br>
+rasa run -m models --enable-api --cors "*"
