@@ -4,19 +4,13 @@ nlu:
 - intent: greet
   examples: |
     - good afternoon
-    - goodmorning
     - good evening
-    - hi
-    - hey rigd
     - Hello
     - Hi
     - Hey
-    - Howdy
     - good morning
-    - goodafternoon
     - goodevening
     - morning
-    - good day
     
 - intent: tuition_and_fees
   examples: |
