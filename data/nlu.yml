@@ -3,192 +3,20 @@ version: "2.0"
 nlu:
 - intent: greet
   examples: |
-    - hey
-    - hello
-    - hi
-    - good morning
-    - good evening
-    - moin
-    - hey dude
-    - goodmorning
-    - goodevening
     - good afternoon
-    - Good Morning
-    - Good morning
-    - Good mourning
-    - Guten Morgen
-    - HELLO
-    - HEY
-    - HEllo
-    - HI
-    - HI
-    - Hallo
-    - Hei
-    - Hellllooooooo
-    - Hello
-    - Hello!
-    - Hey
-    - Hey Sara
-    - Hey bot
-    - Heya
-    - Heylo
-    - Hi
-    - Hi!
-    - Hi'
-    - Hi,
-    - Hi, bot
-    - Hieee
-    - Hieeeeeeeeeeeee
-    - Hola
-    - I said, helllllloooooO!!!!
-    - Well hello there ;)
-    - What is up?
-    - Whats up
-    - Whats up my bot
-    - Whats up?
+    - goodmorning
     - good evening
-    - good moring
-    - good morning
-    - greet
-    - greetings
-    - hai
-    - hallo
-    - hallo sara
-    - halloo
-    - halloooo
-    - heeey
-    - heelio
-    - hell9o
-    - hellio
-    - hello
-    - hello Sara
-    - hello everybody
-    - hello friend
-    - hello hi
-    - hello is anybody there
-    - hello it is me again
-    - hello robot
-    - hello sara
-    - hello sweatheart
-    - hello sweet boy
-    - hello there
-    - hello world
-    - hellooo
-    - helloooo
-    - helo
-    - hey
-    - hey bot
-    - hey bot!
-    - hey dude
-    - hey hey
-    - hey let's talk
-    - hey rasa
-    - hey sara
-    - hey ther
-    - hey there
-    - hey there boy
-    - hey there..
-    - hey, let's talk
-    - heya
-    - heyho
-    - heyo
-    - hhola
     - hi
-    - hi !
-    - hi Mister
-    - hi again
-    - hi can you speak ?
-    - hi folks
-    - hi friend
-    - hi friends
-    - hi hi
-    - hieee
-    - hii
-    - hiihihi
-    - hiii
-    - hlo
-    - howdy
-    - rasa hello
-    - wasssup
-    - wasssup!
-    - what up
-    - whats popping
-    - whats up
-    - helleo
-    - Hello there!
-    - Have a pleasant evening
-    - mona
-    - hello there, man
-    - Greetings!
-    - hello there
-    - Have a pleasant afternoon
-    - Hello there!
-    - Greetings!
-    - Sincere condolences
-    - Good morning
-    - WELCOME
-    - HELLO!
-    - Hello there
-    - Greetings
-    - Greetings
-    - Hello there
-    - Hello,
-    - Hello, hello, hello, hello, hello, hello, hello, hello, hello, hello, hello
-    - Good day.
-    - Hello there!
-    - Hello there.
-    - Hello, Sara
-    - Hello, bot.
-    - Hello there.
-    - Hello there
-    - Hello there.
-    - Hello!
-    - Hello'
-    - Hello,
-    - Hello, bot.
-    - Helloeeeeeeeeeeeeeeee
-    - Helloeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
-    - Hello there.
-    - "HelllllloooooO!!!!" I exclaimed.
-    - Greetings, there ;)
-    - How are you?
-    - How are you?
-    - How are you, my bot?
-    - How are you?
-    - Have a pleasant evening
-    - Hello there!
-    - Hello there!
-    - greetings
-    - Best wishes
-    - hello
-    - hello there
-    - Greetings, Sara
-    - hello there
-    - hello there!
-    - hey hey hey hey hey hey hey hey hey
-    - the heelio
-    - devil9o
-    - Hello there
-    - Good day, Sara
-    - Good day, everyone
-    - Hello there, pal
-    - hello hello
-    - Hello, is there anyone there?
-    - Hello there, it's me again.
-    - Hello there, robot
-    - Greetings, Sara
-    - Greetings, sweatheart
-    - Hello there, sweetie
-    - Good day there
-    - Good day, world
-    - Greetings
-    - oh my god
-    - Greetings
-    - hello there
-    - Hello, bot
-    - Hello, bot!
-    - hello there, man
-    - hello there
+    - hey rigd
+    - Hello
+    - Hi
+    - Hey
+    - Howdy
+    - good morning
+    - goodafternoon
+    - goodevening
+    - morning
+    - good day
     
 - intent: tuition_and_fees
   examples: |
@@ -204,8 +32,7 @@ nlu:
     - what are the tuition expenses for collage
     - info on tution 
     - info about expense
-    - college tuition costs infrmation
-    - data regading educational cost
+    - college tuition costs information
     - what is the cost of course
     - How can I find out about the tuition and fee?
     - what are the cost of educaton
@@ -222,7 +49,7 @@ nlu:
     - information about schooling costs
     - How much does the course cost?
     - Where can I learn about tuition and fee?
-    - What are the concealed expense?
+    - What are the Durham college expense?
     - Durham College charge 
     - I am interested in learning about Durham College fee 
     - I am interested in learning about College expense
@@ -242,7 +69,7 @@ nlu:
     - How much does education cost?
     - What is the cost of college?
     - Durham College Tuition & fee
-    - program charges
+    - program amount  & fee
     - program fee and tuition
     - How do I check my tuition fee?
     - How do I determine my tuition charges? 
@@ -275,7 +102,7 @@ nlu:
     - what charges are not included 
     - what are the hidden charges 
     - to think about additional charges
-    - look for futhur chargs
+    - look for additional charges
     - Does this program contain any other fee?
     - consider other cost
     - are there any supplimentry fee
@@ -336,7 +163,7 @@ nlu:
     - How does one go about making a payment?
     - what is payment policy?
     - what are the options of payment?
-    - how could I pay?
+    - how could I pay to Durham college?
     - how will I be able to pay?
     - how will I be able to make a payment?
     - what payment methods are available?
@@ -368,11 +195,10 @@ nlu:
     - What are the various payment options?
     - How can I make a payment?
     - What is the procedure for making a payment?
-    - option to pay tution fee
-    - the possibility of paying tuition fees
+
 - intent: submenu_withdrawal_and_refund
   examples: |
-    - withdrawals 
+    - Durham college withdrawals 
     - refund scheme 
     - withdrawals and refund
     - what is process to get refunds
@@ -417,10 +243,11 @@ nlu:
     - Is it possible to receive a refund of the fee?
     - Is it possible to have the costs refunded?
     - How can I get my money back?
+    - How can I get my refund back?
     - Is it possible to get the costs reimbursed?
     - Is it possible to have the costs refunded?
     - How do I get a refund or cancel my reservation?
-    - details about withdrawals and refunds
+    - Durham college details about withdrawals and refunds
 
 
 - intent: financial_aid
@@ -430,7 +257,7 @@ nlu:
     - monetary help options
     - financial help options
     - what are financial help options
-    - financial help
+    - financial help by Durham college
     - financial aid
     - financial support given by durham college
     - I need some monetary help
@@ -577,7 +404,7 @@ nlu:
     - i want to know about money management
     - i want to know about financial planning services
     - money management
-    - counselling
+    - Durham college counselling
     - financial planning 
     - financial planning or counselling
     - may I know about financial plannig?
@@ -603,7 +430,8 @@ nlu:
     - I want to learn more about Durham counselling.
     - I want to learn more about money management.
     - I looking for information about financial planning services.
-    - financial planning - counselling
+    - financial planning 
+    - Durham college counselling
     - money management
     - financial advice or planning
     - Could you tell me more about financial planning?
@@ -614,7 +442,7 @@ nlu:
 
 - intent: program_fee_calculator
   examples: |
-    - fee calculator
+    - Durham college fee calculator
     - program calculate tution fee
     - calculate the fee
     - calculate the fee
@@ -779,7 +607,7 @@ nlu:
     - How can I calculate how much money I have?
 - intent: on_campus_employment
   examples: |
-    - on campus employment
+    - Durham college on campus employment
     - on campus jobs
     - employment on campus
     - can i have on campus job?
@@ -832,3 +660,30 @@ nlu:
     - on-campus employment
     - Is it possible for me to work on campus?
     - Are there any career opportunities on campus?
+
+- intent: thank
+  examples: |
+    - Cool. Thanks
+    - Great, thanks
+    - Thank you
+    - Thank you Sara
+    - Thank you so much
+    - Thank's!
+    - Thanks
+    - Thanks bot
+    - Thanks for that
+    - Thanks!
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+    - What is 2 + 2?
+    - Who's the US President?
+- intent: bye
+  examples: |
+    - no thanks
+    - not
+    - no
+    - bye
+    - bye .
+    - ok Bye
+  

@@ -1,34 +1,26 @@
 [
   {
-    "text": "Is it possible to reclaim the fee?",
-    "intent": "submenu_withdrawal_and_refund",
+    "text": "no thanks",
+    "intent": "bye",
     "intent_prediction": {
-      "name": "tuition_and_fees",
-      "confidence": 0.7977097630500793
+      "name": "thank",
+      "confidence": 0.9977958798408508
     }
   },
   {
-    "text": "How can I calculate the amount of money I will need?",
-    "intent": "budget_calculator",
-    "intent_prediction": {
-      "name": "program_fee_calculator",
-      "confidence": 0.6070404052734375
-    }
-  },
-  {
-    "text": "look for futhur chargs",
-    "intent": "submenu_other_fees_to_consider",
-    "intent_prediction": {
-      "name": "tuition_and_fees",
-      "confidence": 0.8475572466850281
-    }
-  },
-  {
-    "text": "program charges",
+    "text": "I am interested in learning about Durham College fee",
     "intent": "tuition_and_fees",
     "intent_prediction": {
-      "name": "submenu_other_fees_to_consider",
-      "confidence": 0.7842161655426025
+      "name": "financial_planning_or_counselling",
+      "confidence": 0.9490326642990112
+    }
+  },
+  {
+    "text": "I am interested in learning about College expense",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "financial_planning_or_counselling",
+      "confidence": 0.8012163043022156
     }
   }
 ]

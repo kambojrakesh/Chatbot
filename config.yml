@@ -18,12 +18,17 @@ pipeline:
    - name: RegexFeaturizer
    - name: LexicalSyntacticFeaturizer
    - name: CountVectorsFeaturizer
+     lowercase: true
    - name: CountVectorsFeaturizer
      analyzer: char_wb
      min_ngram: 2
      max_ngram: 4
+   - name: CountVectorsFeaturizer
+     analyzer: char
+     min_ngram: 1
+     max_ngram: 5
    - name: DIETClassifier
-     epochs: 200
+     epochs: 70
    # other components
    - name: FallbackClassifier
      threshold: 0.8
@@ -31,14 +36,14 @@ pipeline:
 
 policies:
    - name: RulePolicy
-     core_fallback_threshold: 0.95
+     core_fallback_threshold: 0.8
      core_fallback_action_name: "action_default_fallback"
      enable_fallback_prediction: True
    - name: AugmentedMemoizationPolicy 
      max_history: 10
    - name: TEDPolicy
      max_history: 5
-     epochs: 200
+     epochs: 70
      batch_size:
      - 32
      - 64

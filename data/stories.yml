@@ -125,11 +125,6 @@ stories:
   - intent: budget_calculator
   - action: utter_budget_calculator
   
-- story: say goodbye
-  steps:
-  - intent: goodbye
-  - action: utter_goodbye
-  
 #- story: Tuition Fees with sub menu program fee calculator
   #steps:
   #- intent: program_fee_calculator
@@ -159,3 +154,14 @@ stories:
   steps:
   - intent: submenu_scholarship_bursaries_and_rewards
   - action: utter_submenu_scholarship_bursaries_and_rewards    
+
+- story: thanks
+  steps:
+  - intent: thank
+  - action: utter_noworries
+  - action: utter_anything_else
+  
+- story: bye
+  steps:
+  - intent: bye
+  - action: utter_bye

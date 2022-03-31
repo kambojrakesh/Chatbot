@@ -297,4 +297,18 @@ nlu:
     - on-campus employment
     - Is it possible for me to work on campus?
     - Are there any career opportunities on campus?
+- intent: thank
+  examples: |
+    - Cool. Thanks
+    - Great, thanks
+    - Thank you
+    - Thank you Sara
 
+- intent: out_of_scope
+  examples: |
+    - I want to order food
+
+- intent: bye
+  examples: |
+    - bye
+    - bye .
