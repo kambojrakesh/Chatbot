@@ -1,26 +1,74 @@
 [
   {
+    "text": "Hi",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bye",
+      "confidence": 0.4975664019584656
+    }
+  },
+  {
+    "text": "program amount  & fee",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "budget_calculator",
+      "confidence": 0.7087265253067017
+    }
+  },
+  {
+    "text": "what are the cost of educaton",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "submenu_scholarship_bursaries_and_rewards",
+      "confidence": 0.18623590469360352
+    }
+  },
+  {
+    "text": "information about schooling costs",
+    "intent": "tuition_and_fees",
+    "intent_prediction": {
+      "name": "financial_planning_or_counselling",
+      "confidence": 0.5588892102241516
+    }
+  },
+  {
+    "text": "can you tell me how to compute the course fee?",
+    "intent": "program_fee_calculator",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9551864862442017
+    }
+  },
+  {
+    "text": "How do I compute my tuition fee?",
+    "intent": "program_fee_calculator",
+    "intent_prediction": {
+      "name": "tuition_and_fees",
+      "confidence": 0.9786950349807739
+    }
+  },
+  {
+    "text": "How can I calculate the amount of money I will need to spend?",
+    "intent": "budget_calculator",
+    "intent_prediction": {
+      "name": "program_fee_calculator",
+      "confidence": 0.4968165159225464
+    }
+  },
+  {
+    "text": "How can I calculate the amount of money I will need?",
+    "intent": "budget_calculator",
+    "intent_prediction": {
+      "name": "program_fee_calculator",
+      "confidence": 0.7792039513587952
+    }
+  },
+  {
     "text": "no thanks",
     "intent": "bye",
     "intent_prediction": {
       "name": "thank",
-      "confidence": 0.9977958798408508
-    }
-  },
-  {
-    "text": "I am interested in learning about Durham College fee",
-    "intent": "tuition_and_fees",
-    "intent_prediction": {
-      "name": "financial_planning_or_counselling",
-      "confidence": 0.9490326642990112
-    }
-  },
-  {
-    "text": "I am interested in learning about College expense",
-    "intent": "tuition_and_fees",
-    "intent_prediction": {
-      "name": "financial_planning_or_counselling",
-      "confidence": 0.8012163043022156
+      "confidence": 0.9987954497337341
     }
   }
 ]

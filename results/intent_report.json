@@ -1,4 +1,18 @@
 {
+  "thank": {
+    "precision": 0.9090909090909091,
+    "recall": 1.0,
+    "f1-score": 0.9523809523809523,
+    "support": 10,
+    "confused_with": {}
+  },
+  "financial_aid": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 43,
+    "confused_with": {}
+  },
   "on_campus_employment": {
     "precision": 1.0,
     "recall": 1.0,
@@ -6,40 +20,20 @@
     "support": 27,
     "confused_with": {}
   },
-  "budget_calculator": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 63,
-    "confused_with": {}
-  },
   "tuition_and_fees": {
-    "precision": 1.0,
-    "recall": 0.9574468085106383,
-    "f1-score": 0.9782608695652174,
+    "precision": 0.9565217391304348,
+    "recall": 0.9361702127659575,
+    "f1-score": 0.9462365591397849,
     "support": 47,
     "confused_with": {
-      "financial_planning_or_counselling": 2
+      "submenu_scholarship_bursaries_and_rewards": 1,
+      "financial_planning_or_counselling": 1
     }
   },
-  "submenu_other_fees_to_consider": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 64,
-    "confused_with": {}
-  },
-  "program_fee_calculator": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 30,
-    "confused_with": {}
-  },
   "bye": {
-    "precision": 1.0,
+    "precision": 0.8333333333333334,
     "recall": 0.8333333333333334,
-    "f1-score": 0.9090909090909091,
+    "f1-score": 0.8333333333333334,
     "support": 6,
     "confused_with": {
       "thank": 1
@@ -52,19 +46,37 @@
     "support": 45,
     "confused_with": {}
   },
-  "submenu_scholarship_bursaries_and_rewards": {
+  "submenu_how_to_pay": {
     "precision": 1.0,
     "recall": 1.0,
     "f1-score": 1.0,
-    "support": 50,
+    "support": 38,
     "confused_with": {}
   },
   "greet": {
     "precision": 1.0,
+    "recall": 0.875,
+    "f1-score": 0.9333333333333333,
+    "support": 8,
+    "confused_with": {
+      "bye": 1
+    }
+  },
+  "financial_planning_or_counselling": {
+    "precision": 0.9655172413793104,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 14,
+    "f1-score": 0.9824561403508771,
+    "support": 28,
     "confused_with": {}
+  },
+  "budget_calculator": {
+    "precision": 0.9838709677419355,
+    "recall": 0.9682539682539683,
+    "f1-score": 0.976,
+    "support": 63,
+    "confused_with": {
+      "program_fee_calculator": 2
+    }
   },
   "submenu_osap": {
     "precision": 1.0,
@@ -73,45 +85,40 @@
     "support": 21,
     "confused_with": {}
   },
-  "financial_aid": {
-    "precision": 1.0,
+  "submenu_scholarship_bursaries_and_rewards": {
+    "precision": 0.9803921568627451,
     "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 43,
+    "f1-score": 0.99009900990099,
+    "support": 50,
     "confused_with": {}
   },
-  "thank": {
-    "precision": 0.9090909090909091,
-    "recall": 1.0,
-    "f1-score": 0.9523809523809523,
-    "support": 10,
-    "confused_with": {}
-  },
-  "submenu_how_to_pay": {
-    "precision": 1.0,
-    "recall": 1.0,
-    "f1-score": 1.0,
-    "support": 38,
-    "confused_with": {}
-  },
-  "financial_planning_or_counselling": {
+  "program_fee_calculator": {
     "precision": 0.9333333333333333,
+    "recall": 0.9333333333333333,
+    "f1-score": 0.9333333333333333,
+    "support": 30,
+    "confused_with": {
+      "tuition_and_fees": 2
+    }
+  },
+  "submenu_other_fees_to_consider": {
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.9655172413793104,
-    "support": 28,
+    "f1-score": 1.0,
+    "support": 64,
     "confused_with": {}
   },
-  "accuracy": 0.9938271604938271,
+  "accuracy": 0.98125,
   "macro avg": {
-    "precision": 0.9887445887445887,
-    "recall": 0.9850557244174265,
-    "f1-score": 0.9860892837440278,
-    "support": 486
+    "precision": 0.9687185486337144,
+    "recall": 0.9675779176918995,
+    "f1-score": 0.9676551901266146,
+    "support": 480
   },
   "weighted avg": {
-    "precision": 0.994288564658935,
-    "recall": 0.9938271604938271,
-    "f1-score": 0.9938088448694256,
-    "support": 486
+    "precision": 0.9814279008323737,
+    "recall": 0.98125,
+    "f1-score": 0.9811777435310837,
+    "support": 480
   }
 }
