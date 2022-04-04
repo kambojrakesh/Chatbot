@@ -154,6 +154,38 @@ responses:
   - text: "Bye!"
   - text: "Bye, was nice talking to you!"
   - text: "Bye bye!"
+  
+actions:
+  - utter_greet
+  - utter_cheer_up
+  - utter_did_that_help
+  - utter_happy
+  - utter_goodbye
+  - utter_iamabot
+  - utter_main_menu
+  - utter_submenu_tution_fee
+  - utter_submenu_financial_aid
+  - utter_tuition_and_fees
+  - utter_submenu_program_fee_calculator
+  - utter_submenu_other_fees_to_consider
+  - utter_submenu_how_to_pay
+  - utter_submenu_withdrawals_and_refunds 
+  - utter_financial_aid
+  - utter_submenu_osap
+  - utter_submenu_scholarship_bursaries_and_rewards
+  - utter_financial_planning_counselling
+  - utter_program_fee_calculator
+  - utter_budget_calculator
+  - utter_on_campus_employment
+  - utter_welcome_durham_college
+  - utter_please_rephrase
+  - utter_default
+  - utter_ask_rephrase
+  - utter_noworries
+  - utter_anything_else
+  - utter_out_of_scope
+  - utter_bye
+
 
 session_config:
   session_expiration_time: 60

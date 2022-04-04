@@ -46,7 +46,6 @@ class CorrectSpelling(Component):
             message.set(TEXT, new_message)
             #print("--4:", message)
             message.text = new_message
-            message.data['text']=textdata
             
     def persist(self,file_name, model_dir):
         """Pass because a pre-trained model is already persisted"""
