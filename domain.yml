@@ -43,7 +43,7 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "[link](https://i.imgur.com/nGF1K8f.jpg"
 
   utter_did_that_help:
   - text: "Did that help you?"
@@ -92,40 +92,40 @@ responses:
       payload: '/financial_aid{{"submenu_financial":"scholarship_bursaries_and_rewards"}}'
 
   utter_tuition_and_fees:
-  - text: "For tution and fees please visit on https://durhamcollege.ca/financial-info/tuition-and-fees"
+  - text: "For tution and fees please visit on [link](https://durhamcollege.ca/financial-info/tuition-and-fees)"
 
   utter_submenu_program_fee_calculator:
-  - text: "For program fee calculator please visit on https://durhamcollege.ca/program-fee-calculator"
+  - text: "For program fee calculator please visit on [link](https://durhamcollege.ca/program-fee-calculator)"
   
   utter_submenu_other_fees_to_consider:
-  - text: "For other fee calculator please visit on https://durhamcollege.ca/financial-info/tuition-and-fees/other-fees-to-consider"
+  - text: "For other fee calculator please visit on [link](https://durhamcollege.ca/financial-info/tuition-and-fees/other-fees-to-consider)"
   
   utter_submenu_how_to_pay:
-  - text: "You can choose one of the payment options available on https://durhamcollege.ca/financial-info/tuition-and-fees/how-to-pay" 
+  - text: "You can choose one of the payment options available on [link](https://durhamcollege.ca/financial-info/tuition-and-fees/how-to-pay)" 
   
   utter_submenu_withdrawals_and_refunds:
-  - text: "Withdrawal and Refund information woul be available here https://durhamcollege.ca/financial-info/tuition-and-fees/withdrawals-and-refunds"
+  - text: "Withdrawal and Refund information would be available on [link](https://durhamcollege.ca/financial-info/tuition-and-fees/withdrawals-and-refunds)"
   
   utter_financial_aid:
-  - text: "You can check for available options on https://durhamcollege.ca/financial-info/financial-aid to learn more about the financial assistance given by the institution"
+  - text: "You can check for available options on [link](https://durhamcollege.ca/financial-info/financial-aid) to learn more about the financial assistance given by the institution"
   
   utter_submenu_osap:
-  - text: "Go to our website 'Financial Info' page to know more about the OSAP program or visit direct link https://durhamcollege.ca/financial-info/financial-aid/osap"
+  - text: "Go to our website 'Financial Info' link to know more about the OSAP program or visit direct [link](https://durhamcollege.ca/financial-info/financial-aid/osap)"
   
   utter_submenu_scholarship_bursaries_and_rewards:
-  - text: "Explore here https://durhamcollege.ca/financial-info/financial-aid/scholarships-bursaries-and-awards given to find out more about bursaries and scholarship or contact-us here https://durhamcollege.ca/financial-info/financial-aid/contact-us"
+  - text: "Explore this [link](https://durhamcollege.ca/financial-info/financial-aid/scholarships-bursaries-and-awards) given to find out more about bursaries and scholarship or contact-us this [link](https://durhamcollege.ca/financial-info/financial-aid/contact-us)"
   
   utter_financial_planning_counselling:
   - text: "You need to register for workshop to get information about financial planning or you can book an appointment with a counsellor to help you prepare for a budget and the registration details are posted on MyCampus"
 
   utter_program_fee_calculator:
-  - text: "For program fee calculator please visit on https://durhamcollege.ca/program-fee-calculator"
+  - text: "For program fee calculator please visit on [link](https://durhamcollege.ca/program-fee-calculator)"
   
   utter_budget_calculator:
-  - text: "For budget calculation you can visit https://durhamcollege.ca/financial-info/budget-calculator"
+  - text: "For budget calculation you can visit [link](https://durhamcollege.ca/financial-info/budget-calculator)"
   
   utter_on_campus_employment:
-  - text: "You can check here https://durhamcollege.ca/financial-info/on-campus-employment to know more for the on-campus employment."
+  - text: "You can check here [link](https://durhamcollege.ca/financial-info/on-campus-employment) to know more for the on-campus employment."
   
   utter_welcome_durham_college:
   - text: "Welcome Durham college finaacial department menu."
