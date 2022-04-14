@@ -1,0 +1,556 @@
+/*Mixin for styled stack dc date */
+/* Mixin for profile style round images */
+body.overflow-hidden {
+  position: fixed;
+  height: 100%;
+  width: 100%; }
+
+.row {
+  margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto; }
+  .row .expanded {
+    padding-left: 0px;
+    padding-right: 0px; }
+  .row.collapse.column {
+    width: 100%;
+    -webkit-background-origin: content-box;
+            background-origin: content-box;
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    position: relative;
+    padding: 0; }
+    .row.collapse.column > div {
+      padding: 0 1em !important;
+      -webkit-background-origin: content-box;
+              background-origin: content-box;
+      -webkit-background-clip: content-box;
+              background-clip: content-box;
+      max-width: 1200px;
+      margin: 0 auto !important;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      font-size: 1rem; }
+  .row.panel-grid:not(.row-has-margin) {
+    margin-bottom: 0px; }
+    .row.panel-grid:not(.row-has-margin) .panel-grid-cell:first-of-type:not(:only-child) {
+      margin: 25px 0; }
+      @media print, screen and (min-width: 40em) {
+        .row.panel-grid:not(.row-has-margin) .panel-grid-cell:first-of-type:not(:only-child) {
+          margin: 0; } }
+
+.widget .widget-title {
+  margin-top: 1em !important;
+  height: 0 !important;
+  font-size: 1.15em !important; }
+
+@media screen and (max-width: 63.9375em) {
+  .widget[data-equalizer-watch] {
+    height: auto !important; } }
+
+.widget[data-equalizer-watch] > * {
+  height: 100%; }
+
+.widget.widget_smartslider3.panel-first-child {
+  margin-bottom: 0 !important; }
+
+.widget.so-widget-sow-image {
+  margin: 0.5em 0 1.5em 0; }
+
+.widget.so-widget-sow-image h3 {
+  margin: 0.5em 0 0 0; }
+
+.widget.widget_sow-tabs h3.widget-title {
+  padding: 0 1.65em; }
+
+.widget .so-widget-sow-video {
+  text-align: center; }
+
+.section-title.row {
+  width: 100%;
+  display: table;
+  padding: 0 1em;
+  margin: 2em 0; }
+  .section-title.row img,
+  .section-title.row h2 {
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0 1em 0 0; }
+  .section-title.row img {
+    height: 100px;
+    width: 100px;
+    max-width: initial; }
+  .section-title.row h2 {
+    width: 100%; }
+
+.section-title-container + .row.panel-grid {
+  border-top: 0;
+  padding-bottom: 2em !important; }
+
+.row .row-sm {
+  padding: 0 20px;
+  max-width: 1000px;
+  margin: 0px auto; }
+
+.row-xs {
+  padding: 0 20px;
+  max-width: 850px;
+  margin: 0px auto; }
+
+.row-lg {
+  padding: 0 20px;
+  max-width: 1350px;
+  margin: 0px auto; }
+
+.first-margin-top {
+  margin-top: 1em; }
+
+.padding-top-sm {
+  padding-top: 2em; }
+
+main.main-with-sidebar article.main-content {
+  margin: 0; }
+
+main.main-with-sidebar article h1.entry-title {
+  margin-bottom: 1rem; }
+
+@media print, screen and (min-width: 64em) {
+  main.main-with-sidebar {
+    float: right;
+    width: 70%;
+    margin-bottom: 4em; } }
+
+aside.sidebar {
+  margin-bottom: 3em; }
+  aside.sidebar > div {
+    margin-bottom: 0.5; }
+  @media print, screen and (min-width: 64em) {
+    aside.sidebar {
+      float: left;
+      width: 25%;
+      margin-right: 5%; } }
+
+.section-padding, section.dates.vertical {
+  padding-bottom: 3.5em;
+  padding-top: 3.5em; }
+
+.section-padding-md {
+  padding-bottom: 2.5em !important;
+  padding-top: 2.5em !important; }
+
+.section-padding-lg {
+  padding-bottom: 3.5em !important;
+  padding-top: 3.5em !important; }
+
+.section-padding-sm {
+  padding-bottom: 1.5em;
+  padding-top: 1.5em; }
+
+.section-padding-vs {
+  padding-bottom: 1em;
+  padding-top: 1em; }
+
+.section-padding-xs {
+  padding-bottom: 0.5em;
+  padding-top: 0.5em; }
+
+.row.margin-bottom-sm .columns {
+  margin-bottom: 2em; }
+  .row.margin-bottom-sm .columns:last-child {
+    margin-bottom: 0; }
+  @media print, screen and (min-width: 40em) {
+    .row.margin-bottom-sm .columns {
+      margin-bottom: 0; } }
+
+@media print, screen and (min-width: 40em) {
+  .row.margin-bottom-md .columns {
+    margin-bottom: 2em; }
+    .row.margin-bottom-md .columns.last-child {
+      margin-bottom: 0; } }
+
+@media print, screen and (min-width: 64em) {
+  .row.margin-bottom-md .columns {
+    margin-bottom: 0; } }
+
+@media print, screen and (min-width: 64em) {
+  .row.margin-bottom-lg .columns {
+    margin-bottom: 2em; }
+    .row.margin-bottom-lg .columns.last-child {
+      margin-bottom: 0; } }
+
+.columns.margin-bottom-sm {
+  margin-bottom: 2em; }
+  @media print, screen and (min-width: 40em) {
+    .columns.margin-bottom-sm {
+      margin-bottom: 0; } }
+
+@media print, screen and (min-width: 40em) {
+  .columns.margin-bottom-md {
+    margin-bottom: 2em; } }
+
+@media print, screen and (min-width: 64em) {
+  .columns.margin-bottom-md {
+    margin-bottom: 0; } }
+
+@media print, screen and (min-width: 64em) {
+  .columns.margin-bottom-lg {
+    margin-bottom: 2em; } }
+
+@media print, screen and (min-width: 64em) {
+  .columns.margin-top-lg {
+    margin-top: 2em; } }
+
+.row .margin-expanded {
+  margin-left: -0.625rem;
+  margin-right: -0.625rem; }
+  @media print, screen and (min-width: 40em) {
+    .row .margin-expanded {
+      margin-left: -1.25rem;
+      margin-right: -1.25rem; } }
+
+.row .more-row {
+  position: relative;
+  margin: 2rem 0; }
+  .row .more-row a.button,
+  .row .more-row button {
+    margin: 0; }
+
+.float-left-md {
+  float: none; }
+  @media print, screen and (min-width: 40em) {
+    .float-left-md {
+      float: left; } }
+
+.float-right-md {
+  float: none; }
+  @media print, screen and (min-width: 40em) {
+    .float-right-md {
+      float: right; } }
+
+@media print, screen and (min-width: 40em) {
+  .mobile-break {
+    display: none; } }
+
+.sink {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+  @media print, screen and (min-width: 40em) {
+    .sink {
+      width: initial; }
+      .sink:not(button), .sink:not(a.button) {
+        width: 100%; } }
+  .sink.right {
+    left: initial;
+    right: 0; }
+
+.sink-md {
+  width: 100%; }
+  @media print, screen and (min-width: 40em) {
+    .sink-md {
+      width: initial;
+      position: absolute;
+      left: 0;
+      bottom: 0; }
+      .sink-md:not(button), .sink-md:not(a.button) {
+        width: 100%; }
+      .sink-md.right {
+        left: initial;
+        right: 0; } }
+
+.no-margins {
+  margin: 0 !important; }
+
+.nowrap {
+  white-space: nowrap; }
+
+.overflow-hidden {
+  overflow: hidden; }
+
+article .logo.logo-img {
+  max-height: 500px;
+  background-repeat: no-repeat;
+  min-height: 250px;
+  -webkit-background-size: contain;
+          background-size: contain;
+  background-position: 50%;
+  margin: 1em 0; }
+
+article.main-content.type-class .entry-content {
+  padding-top: 0; }
+  article.main-content.type-class .entry-content .plyr-container {
+    margin: 1em auto;
+    min-height: 200px;
+    min-width: 100%;
+    height: auto; }
+    @media print, screen and (min-width: 40em) {
+      article.main-content.type-class .entry-content .plyr-container {
+        min-height: 600px; } }
+
+.vertical.menu.accordion-menu {
+  margin-bottom: 0;
+  border: 0; }
+  .vertical.menu.accordion-menu .horizontal.menu.is-accordion-submenu {
+    margin-left: 0;
+    overflow-x: scroll;
+    overflow-y: hidden; }
+    .vertical.menu.accordion-menu .horizontal.menu.is-accordion-submenu.vertical li {
+      display: block !important; }
+    .vertical.menu.accordion-menu .horizontal.menu.is-accordion-submenu li a.button.gray {
+      text-decoration: none;
+      padding: 0.85em 0;
+      white-space: nowrap;
+      font-size: 1em;
+      position: relative;
+      margin: 0 1em;
+      background: none;
+      display: inline-block; }
+      .vertical.menu.accordion-menu .horizontal.menu.is-accordion-submenu li a.button.gray:after {
+        content: '';
+        opacity: 0;
+        -webkit-transition: opacity 0.5s ease-in-out;
+        transition: opacity 0.5s ease-in-out;
+        position: absolute;
+        width: 100%;
+        height: 2.5px;
+        bottom: 0.5em;
+        left: 0;
+        right: 0;
+        display: block;
+        margin: auto; }
+    .vertical.menu.accordion-menu .horizontal.menu.is-accordion-submenu li.active a.button.gray::after, .vertical.menu.accordion-menu .horizontal.menu.is-accordion-submenu li.router-link-active a.button.gray::after {
+      opacity: 1; }
+  .vertical.menu.accordion-menu a.title-bar-title {
+    text-decoration: none; }
+  .vertical.menu.accordion-menu .large-horizontal {
+    margin-left: 0; }
+    .vertical.menu.accordion-menu .large-horizontal li.button.gray a {
+      padding: 0;
+      text-decoration: none; }
+  .vertical.menu.accordion-menu ul::after {
+    background: none; }
+
+.plyr-container {
+  position: relative;
+  padding: 0;
+  height: auto !important; }
+  .plyr-container .fg-plyr,
+  .plyr-container video {
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    position: relative;
+    height: auto;
+    width: 100%;
+    max-height: 650px; }
+    .plyr-container .fg-plyr:not(video),
+    .plyr-container video:not(video) {
+      visibility: hidden; }
+  .plyr-container .bg-plyr {
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    cursor: pointer; }
+    .plyr-container .bg-plyr ~ svg, .plyr-container .bg-plyr > svg {
+      width: 25%;
+      max-height: 100px;
+      height: auto;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+          -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+      color: #fff;
+      fill: currentColor;
+      right: 5%;
+      bottom: 5%;
+      position: absolute;
+      opacity: 0.6;
+      z-index: 2;
+      cursor: pointer;
+      -webkit-filter: drop-shadow(3px 2px 2px rgba(0, 0, 0, 0.7));
+      filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.7));
+      pointer-events: none; }
+      @media print, screen and (min-width: 40em) {
+        .plyr-container .bg-plyr ~ svg, .plyr-container .bg-plyr > svg {
+          top: initial;
+          -webkit-transform: initial;
+              -ms-transform: initial;
+                  transform: initial;
+          max-width: 100px; } }
+      @media print, screen and (min-width: 64em) {
+        .plyr-container .bg-plyr ~ svg, .plyr-container .bg-plyr > svg {
+          max-height: 25%; } }
+  .plyr-container .plyr {
+    height: 100%;
+    max-height: 100%;
+    max-height: 650px; }
+
+.livestream-container {
+  margin: 1em 0;
+  background: #fff; }
+  .livestream-container iframe {
+    width: auto;
+    min-height: 415px;
+    min-width: 640px;
+    height: 360px; }
+
+section.dates.vertical {
+  padding: 2.5em;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start; }
+  section.dates.vertical .h2.small {
+    line-height: 0.75em; }
+  section.dates.vertical .date {
+    margin-bottom: 0;
+    position: relative;
+    min-height: 165px;
+    display: inline-block;
+    min-height: initial; }
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      section.dates.vertical .date {
+        padding-right: 15px; } }
+    @media screen and (max-width: 39.9375em) {
+      section.dates.vertical .date {
+        min-height: 115px; } }
+    section.dates.vertical .date .date-date {
+      border-right: 1px solid #cacaca; }
+      @media screen and (max-width: 39.9375em) {
+        section.dates.vertical .date .date-date {
+          padding-left: 30px; } }
+      section.dates.vertical .date .date-date a {
+        text-decoration: none; }
+        section.dates.vertical .date .date-date a span {
+          display: block;
+          padding: 0 15px 0px 0px;
+          text-align: left; }
+          section.dates.vertical .date .date-date a span.date-month {
+            color: #000;
+            font-weight: 400;
+            font-family: 'Lato', Arial, Helvetica, sans-serif;
+            text-transform: uppercase;
+            line-height: 1.5; }
+            @media screen and (max-width: 39.9375em) {
+              section.dates.vertical .date .date-date a span.date-month {
+                text-align: left; } }
+          section.dates.vertical .date .date-date a span.date-day {
+            font-family: "Oswald", sans-serif;
+            font-size: 2.5em;
+            font-weight: 300;
+            color: #0B8261;
+            line-height: 30px;
+            display: block;
+            padding-bottom: 15px; }
+            @media screen and (max-width: 39.9375em) {
+              section.dates.vertical .date .date-date a span.date-day {
+                text-align: left;
+                font-size: 2em;
+                padding-right: 0; } }
+    section.dates.vertical .date .date-copy {
+      padding-left: 15px; }
+      @media screen and (max-width: 39.9375em) {
+        section.dates.vertical .date .date-copy {
+          padding-left: 25px; } }
+      @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        section.dates.vertical .date .date-copy p {
+          word-wrap: break-word; } }
+      section.dates.vertical .date .date-copy a {
+        text-decoration: none; }
+        section.dates.vertical .date .date-copy a span.h4 {
+          text-transform: initial; }
+      section.dates.vertical .date .date-copy .display_title {
+        font-weight: bold;
+        color: black; }
+    section.dates.vertical .date a,
+    section.dates.vertical .date p,
+    section.dates.vertical .date span,
+    section.dates.vertical .date .date-copy span.display_title,
+    section.dates.vertical .date .date-date a.date-month,
+    section.dates.vertical .date .date-date a.date-day {
+      color: #fff; }
+    section.dates.vertical .date .date-date a.date-day,
+    section.dates.vertical .date .date-date a.date-month,
+    section.dates.vertical .date .date-date a span {
+      padding: 0;
+      text-align: center; }
+    section.dates.vertical .date .date-date a.date-month {
+      font-size: 1.15em;
+      height: 1.5em;
+      line-height: 1.25em;
+      font-weight: 400;
+      font-family: "Lato", Arial, Helvetica, sans-serif;
+      text-transform: uppercase; }
+      section.dates.vertical .date .date-date a.date-month > span {
+        line-height: 1.25em;
+        font-size: 0.9375rem !important;
+        font-weight: 600; }
+    section.dates.vertical .date .date-date a.date-day {
+      font-size: 3.5em;
+      font-family: "Oswald", sans-serif;
+      font-weight: 400; }
+      section.dates.vertical .date .date-date a.date-day > span {
+        min-width: 50px;
+        line-height: 1; }
+    section.dates.vertical .date .date-date {
+      border-right: 0px !important;
+      padding-right: 15px;
+      padding-left: 0; }
+    section.dates.vertical .date .date-copy {
+      padding-left: 15px;
+      border-left: 1px solid #ffffff; }
+      section.dates.vertical .date .date-copy p {
+        margin-bottom: 0px;
+        line-height: 1.25em; }
+      section.dates.vertical .date .date-copy .display_title {
+        font-family: 'Oswald';
+        color: #fff;
+        font-size: 1.3em;
+        text-shadow: none;
+        line-height: 1.25em !important;
+        font-weight: normal;
+        font-style: normal;
+        text-decoration: none;
+        text-align: left;
+        letter-spacing: normal;
+        word-spacing: normal;
+        text-transform: uppercase;
+        font-weight: 400;
+        margin-bottom: 0.5em; }
+      section.dates.vertical .date .date-copy .display_title, section.dates.vertical .date .date-copy .event-cat {
+        text-transform: uppercase; }
+      section.dates.vertical .date .date-copy .event-cat {
+        font-weight: 600;
+        line-height: 1.25;
+        font-size: 0.9375em;
+        padding: 0 0 0.25em 0; }
+  section.dates.vertical .event-button-column {
+    margin-bottom: 0;
+    padding: 1em 0; }
+    @media screen and (max-width: 39.9375em) {
+      section.dates.vertical .event-button-column {
+        margin-bottom: 0 !important; } }
+    section.dates.vertical .event-button-column a.button.white.hollow {
+      padding: 0.5em 1em;
+      white-space: nowrap; }
+  section.dates.vertical .row.more-row {
+    margin-top: auto;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0; }
+
+.ease {
+  -webkit-transition-timing-function: ease !important;
+  transition-timing-function: ease !important; }
+
+/*# sourceMappingURL=vertical.css.map */

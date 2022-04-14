@@ -128,7 +128,7 @@ responses:
   - text: "You can check here [link](https://durhamcollege.ca/financial-info/on-campus-employment) to know more for the on-campus employment."
   
   utter_welcome_durham_college:
-  - text: "Welcome Durham college finaacial department menu."
+  - text: "Welcome Durham college financial department menu."
   
   utter_please_rephrase:
   - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"

@@ -1,0 +1,221 @@
+div#lhnHocButton div.lhnHocChatBtnCont {
+  background-color: #0b8261;
+}
+
+div#lhnHocButton.lhnround div.lhnHocChatBtnCont {
+  background-color: transparent;
+}
+
+div#lhnHocButton div.lhnHocChatBtn {
+  background-color: #0b8261;
+}
+
+div#lhnHocButton div.lhnHocChatBtn_border {
+  border: 4px solid #1997af;
+}
+
+div#hocContainer button {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Oswald", sans-serif;
+}
+
+
+div#lhnHocButton div.lhnHocChatBtnShadow {
+  box-shadow: -2px 3px 8px 1px #a0a0a0;
+}
+
+div#lhnHocButton div.lhnHocFrontBubble {
+  background-color: #ffffff;
+}
+
+div#lhnHocButton div.lhnHocFrontBubble:before {
+  border-color: #ffffff transparent transparent #ffffff;
+}
+
+div#lhnHocButton.lhnround div.lhnHocFrontBubble:after {
+  border-color: transparent #ffffff #ffffff transparent;
+}
+
+div#lhnHocButton div.lhnHocChatTalk {
+  background-color: #0b8261;
+}
+
+#lhnHelpOutCenter div.lhnRadioGroup input:checked + span {
+  background-color: #e0e0e0;
+
+  color: white;
+}
+
+div#lhnHocButton div.lhnHocBackBubble {
+  background-color: #e0e0e0;
+}
+
+div#lhnHocButton div.lhnHocBackBubble:after {
+  border-color: #e0e0e0 #e0e0e0 transparent transparent;
+}
+
+div#lhnHocInvite div.lhnHocInviteCont {
+  background-color: #0b8261;
+
+  color: #ffffff;
+}
+
+div#lhnHocInvite div.lhnHocInviteButton {
+  border: 1px solid #ffffff;
+
+  background-color: #f0f0f0;
+
+  color: #999;
+}
+
+div#lhnHocInvite div.lhnHocInviteButton.lhnstart {
+  background-color: #ffffff;
+
+  color: #999;
+}
+
+#lhnHelpOutCenter button.lhnFormButton,
+#lhnHelpOutCenter button.form_submit {
+  background-color: #0b8261;
+  color: white;
+
+  border-radius: 0px;
+
+}
+
+#lhnHelpOutCenter button.lhnFormButton:hover,
+#lhnHelpOutCenter button.form_submit:hover {
+  background-color: #09684e;
+  border-radius: 0px;  
+}
+
+#lhnHelpOutCenter div.lhnWindow-header {
+  color: white;
+  background-color: #0b8261;
+
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+}
+
+#lhnHelpOutCenter div.lhnWindow-header * {
+    color: inherit;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;    
+}
+
+#lhnHelpOutCenter div.lhnCustomerMessage div.lhnWindow-message {
+  background-color: #0b8261;
+  color: white;
+}
+
+#lhnHelpOutCenter div.lhnCustomerMessage div.lhnWindow-message:after {
+  border-color: transparent transparent transparent #0b8261 !important;
+}
+
+#lhnHelpOutCenter div.lhnOperatorMessage div.lhnWindow-message a {
+  color: #999999;
+}
+
+#lhnHelpOutCenter div.lhnWindow-chat_input button {
+  background-color: #0b8261;
+
+  color: white;
+}
+
+#lhnHelpOutCenter div.lhnWindow-chat_input button:hover {
+  background-color: #666666;
+}
+
+#lhnHelpOutCenter div.lhnPrompt button.lhnFormButton {
+  border: 2px solid #999999;
+}
+
+#lhnHelpOutCenter div.lhnPrompt button.lhnFormButton.lhnPromptDecline {
+  background-color: #ffffff;
+
+  color: #999999;
+}
+
+#lhnHelpOutCenter div.lhnChatActionsMenu img {
+  background-color: #0b8261;
+}
+
+/* Jump Logic */
+
+#lhnHelpOutCenter div.jumplogic .lhnOptions .lhnOption {
+  color: #999999;
+}
+
+#lhnHelpOutCenter div.jumplogic .lhnOptions .lhnOption:hover {
+  background-color: #0b8261;
+
+  color: #ffffff;
+}
+
+div#lhnHelpOutCenter.lhnWindow {
+    border-radius: 0px;
+}
+
+.lhnFieldInput input[type="text"], .lhnFieldInput select {
+    border-radius: 0px !important;
+}
+  
+#lhnHelpOutCenter div.lhnWindow-body * {
+  font-family: 'Lato', sans-serif;
+}
+
+.lhnPreChatForm .pre-chat-banner {
+  margin: -2.5em -1.5em 1.5em -1.5em; padding: 1em;
+}
+
+.lhnPreChatForm .pre-chat-banner p:last-of-type {
+  margin-bottom: 0px;
+}
+
+.lhnField #fld_08_161244_46169, .lhnField label[for="fld_08_161244_46169"] {
+  display: none !important;
+}
+
+.lhnWindow-header-closer {
+  margin: 0 !important;
+}
+
+.lhnWindow img[src="null"] {
+  display: none !important;
+}
+
+#lhnHelpOutCenter div.lhnRadioGroup label {
+  cursor: pointer;
+  float: left;
+  width: auto;
+  overflow: auto;
+  margin: 5px 1% 5px 0;
+  background-color: #fff;
+  color: #666 !important;
+  border-radius: 5px;
+  border: 3px solid #666 !important;
+  display: inherit;
+  border-radius: 0px !important;
+}
+
+.lhnHocInviteCont {
+  border-radius: 0 !important;
+}
+
+.lhnHocInviteButtons [role="button"] {
+  border-radius: 0 !important;
+}
+
+.lhnHocInviteCont .lhnMsg {
+  font-family: 'Lato', sans-serif;
+}
+#lhnHocInvite { 
+  z-index: 999999999 !important;
+}
+
+#lhnHelpOutCenter label.lhnLabel {
+  text-transform: initial !important;
+}
