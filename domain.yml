@@ -128,16 +128,16 @@ responses:
   - text: "You can check here [link](https://durhamcollege.ca/financial-info/on-campus-employment) to know more for the on-campus employment."
   
   utter_welcome_durham_college:
-  - text: "Welcome Durham college financial department menu."
+  - text: "Welcome to Durham college financial department."
   
   utter_please_rephrase:
-  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+  - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
   
   utter_default:
-  - text: "Sorry I didn't get that. Can you rephrase?"
+  - text: "Sorry I didn't get that. Can you please rephrase?"
   
   utter_ask_rephrase:
-  - text: "I'm sorry, I didn't quite understand that. Could you rephrase?"
+  - text: "I'm sorry, I didn't quite understand that. Could you please rephrase?"
   
   utter_noworries:
   - text: "You're welcome!"

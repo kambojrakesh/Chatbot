@@ -9,7 +9,7 @@ class ActionDefaultFallback(Action):
     of the dialogue"""
 
     def name(self) -> Text:
-        return ACTION_DEFAULT_FALLBACK_NAME
+        return "action_default_fallback"
 
     async def run(
         self,
@@ -17,7 +17,7 @@ class ActionDefaultFallback(Action):
         tracker: Tracker,
         domain: Dict[Text, Any],
     ) -> List[Dict[Text, Any]]:
-        dispatcher.utter_message(template="my_custom_fallback_template")
+        dispatcher.utter_message(template="action_default_fallback")
 
         # Revert user message which led to fallback.
         return [UserUtteranceReverted()]
